@@ -1,0 +1,69 @@
+# runtime_ruleset.txt
+# run_id: baseline_007
+# timestamp_iso: 2026-03-31T10:48:06+02:00
+# openflow_version: OpenFlow13
+
+===== SWITCH CONTROLSW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=2770.091s, table=0, n_packets=7973, n_bytes=905129, priority=0 actions=NORMAL
+
+===== SWITCH WANR1 =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=2770.119s, table=0, n_packets=2655, n_bytes=417467, priority=0 actions=NORMAL
+
+===== SWITCH WANR2 =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=2770.108s, table=0, n_packets=2683, n_bytes=419351, priority=0 actions=NORMAL
+
+===== SWITCH WANR3 =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=2769.940s, table=0, n_packets=4382, n_bytes=576533, priority=0 actions=NORMAL
+
+===== SWITCH DSS1GW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=2770.164s, table=0, n_packets=2652, n_bytes=414117, priority=0 actions=NORMAL
+
+===== SWITCH DSS2GW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=2770.150s, table=0, n_packets=2685, n_bytes=419547, priority=0 actions=NORMAL
+
+===== SWITCH DSS3GW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=2770.020s, table=0, n_packets=2604, n_bytes=410548, priority=0 actions=NORMAL
+
+===== SWITCH DSS4GW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=2769.988s, table=0, n_packets=2648, n_bytes=416667, priority=0 actions=NORMAL
+
+===== SWITCH DSS1ASW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=2770.105s, table=0, n_packets=2650, n_bytes=413945, priority=0 actions=NORMAL
+
+===== SWITCH DSS2ASW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=2770.097s, table=0, n_packets=2686, n_bytes=419613, priority=0 actions=NORMAL
+
+===== SWITCH DSS3ASW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=2770.014s, table=0, n_packets=2604, n_bytes=410548, priority=0 actions=NORMAL
+
+===== SWITCH DSS4ASW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=2769.984s, table=0, n_packets=2647, n_bytes=416577, priority=0 actions=NORMAL
+
+===== SWITCH DPSGW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=2770.094s, table=0, n_packets=877, n_bytes=254400, priority=0 actions=NORMAL
+
+===== SWITCH DPSRS =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=2770.084s, table=0, n_packets=880, n_bytes=257750, priority=0 actions=NORMAL
+
+===== SWITCH DPSHV =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=2770.072s, table=0, n_packets=880, n_bytes=257750, priority=0 actions=NORMAL
+
+===== SWITCH DPSMV =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=2770.063s, table=0, n_packets=879, n_bytes=257640, priority=0 actions=NORMAL
+

@@ -1,0 +1,15 @@
+OFPST_PORT_DESC reply (OF1.3) (xid=0x2):
+ 1(WANR2-eth1): addr:5a:3b:b1:dd:52:08
+     config:     0
+     state:      LIVE
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ 2(WANR2-eth2): addr:2a:a1:6b:33:be:b9
+     config:     0
+     state:      LIVE
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ LOCAL(WANR2): addr:4e:79:6e:28:ec:4b
+     config:     PORT_DOWN
+     state:      LINK_DOWN
+     speed: 0 Mbps now, 0 Mbps max

@@ -1,0 +1,11 @@
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=258.653s, table=0, n_packets=0, n_bytes=0, priority=400,arp actions=NORMAL
+ cookie=0x0, duration=258.639s, table=0, n_packets=431, n_bytes=31296, priority=300,tcp,in_port=3,nw_src=1.1.10.10,nw_dst=1.1.1.1,tp_dst=2404 actions=output:2
+ cookie=0x0, duration=258.617s, table=0, n_packets=423, n_bytes=30750, priority=300,tcp,in_port=3,nw_src=1.1.10.10,nw_dst=1.1.2.1,tp_dst=2404 actions=output:1
+ cookie=0x0, duration=258.599s, table=0, n_packets=418, n_bytes=30480, priority=300,tcp,in_port=3,nw_src=1.1.10.10,nw_dst=1.1.3.1,tp_dst=2404 actions=output:4
+ cookie=0x0, duration=258.576s, table=0, n_packets=437, n_bytes=31767, priority=300,tcp,in_port=3,nw_src=1.1.10.10,nw_dst=1.1.4.1,tp_dst=2404 actions=output:4
+ cookie=0x0, duration=258.628s, table=0, n_packets=650, n_bytes=65842, priority=300,tcp,in_port=2,nw_src=1.1.1.1,nw_dst=1.1.10.10,tp_src=2404 actions=output:3
+ cookie=0x0, duration=258.608s, table=0, n_packets=659, n_bytes=66369, priority=300,tcp,in_port=1,nw_src=1.1.2.1,nw_dst=1.1.10.10,tp_src=2404 actions=output:3
+ cookie=0x0, duration=258.588s, table=0, n_packets=666, n_bytes=66712, priority=300,tcp,in_port=4,nw_src=1.1.3.1,nw_dst=1.1.10.10,tp_src=2404 actions=output:3
+ cookie=0x0, duration=258.565s, table=0, n_packets=676, n_bytes=67378, priority=300,tcp,in_port=4,nw_src=1.1.4.1,nw_dst=1.1.10.10,tp_src=2404 actions=output:3
+ cookie=0x0, duration=258.554s, table=0, n_packets=822, n_bytes=130429, priority=0 actions=drop

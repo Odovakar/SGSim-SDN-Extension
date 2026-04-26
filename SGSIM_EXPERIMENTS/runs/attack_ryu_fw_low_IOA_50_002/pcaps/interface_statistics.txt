@@ -1,0 +1,45 @@
+
+===== attack_ryu_fw_low_IOA_50_002_CONTROLSW-eth3.pcapng =====
+170	9.412359606	1.1.10.10	1.1.1.1	35704	2404	46	6	5000
+197	10.027773148	1.1.10.10	1.1.2.1	40466	2404	46	6	5000
+213	10.620569612	1.1.10.10	1.1.3.1	36544	2404	46	6	5000
+234	11.320692107	1.1.10.10	1.1.4.1	45366	2404	46	6	5000
+
+===== attack_ryu_fw_low_IOA_50_002_DSS1ASW-eth2.pcapng =====
+46	8.889460378	1.1.10.10	1.1.1.1	35704	2404	46	6	5000
+
+===== attack_ryu_fw_low_IOA_50_002_DSS1ASW-eth3.pcapng =====
+46	8.889435586	1.1.10.10	1.1.1.1	35704	2404	46	6	5000
+
+===== attack_ryu_fw_low_IOA_50_002_DSS1GW-eth1.pcapng =====
+50	9.353503699	1.1.10.10	1.1.1.1	35704	2404	46	6	5000
+
+===== attack_ryu_fw_low_IOA_50_002_DSS1GW-eth2.pcapng =====
+46	8.889430752	1.1.10.10	1.1.1.1	35704	2404	46	6	5000
+
+===== attack_ryu_fw_low_IOA_50_002_DSS2ASW-eth2.pcapng =====
+
+===== attack_ryu_fw_low_IOA_50_002_DSS2ASW-eth3.pcapng =====
+
+===== attack_ryu_fw_low_IOA_50_002_DSS2GW-eth1.pcapng =====
+62	10.074297388	1.1.10.10	1.1.2.1	40466	2404	46	6	5000
+
+===== attack_ryu_fw_low_IOA_50_002_DSS2GW-eth2.pcapng =====
+
+===== attack_ryu_fw_low_IOA_50_002_DSS3ASW-eth1.pcapng =====
+
+===== attack_ryu_fw_low_IOA_50_002_DSS3ASW-eth2.pcapng =====
+
+===== attack_ryu_fw_low_IOA_50_002_DSS3GW-eth1.pcapng =====
+56	10.130355703	1.1.10.10	1.1.3.1	36544	2404	46	6	5000
+
+===== attack_ryu_fw_low_IOA_50_002_DSS3GW-eth2.pcapng =====
+
+===== attack_ryu_fw_low_IOA_50_002_DSS4ASW-eth1.pcapng =====
+
+===== attack_ryu_fw_low_IOA_50_002_DSS4ASW-eth2.pcapng =====
+
+===== attack_ryu_fw_low_IOA_50_002_DSS4GW-eth1.pcapng =====
+66	11.319587853	1.1.10.10	1.1.4.1	45366	2404	46	6	5000
+
+===== attack_ryu_fw_low_IOA_50_002_DSS4GW-eth2.pcapng =====

@@ -1,0 +1,141 @@
+# runtime_ruleset.txt
+# run_id: attack_ryu_fw_3000_004
+# timestamp_iso: 2026-04-07T21:17:40+02:00
+# openflow_version: OpenFlow13
+
+===== SWITCH CONTROLSW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=26.056s, table=0, n_packets=8, n_bytes=336, priority=400,arp actions=NORMAL
+ cookie=0x0, duration=26.043s, table=0, n_packets=30, n_bytes=2166, priority=300,tcp,in_port=3,nw_src=1.1.10.10,nw_dst=1.1.1.1,tp_dst=2404 actions=output:2
+ cookie=0x0, duration=26.019s, table=0, n_packets=31, n_bytes=2238, priority=300,tcp,in_port=3,nw_src=1.1.10.10,nw_dst=1.1.2.1,tp_dst=2404 actions=output:1
+ cookie=0x0, duration=25.998s, table=0, n_packets=32, n_bytes=2319, priority=300,tcp,in_port=3,nw_src=1.1.10.10,nw_dst=1.1.3.1,tp_dst=2404 actions=output:4
+ cookie=0x0, duration=25.979s, table=0, n_packets=31, n_bytes=2247, priority=300,tcp,in_port=3,nw_src=1.1.10.10,nw_dst=1.1.4.1,tp_dst=2404 actions=output:4
+ cookie=0x0, duration=26.029s, table=0, n_packets=50, n_bytes=5189, priority=300,tcp,in_port=2,nw_src=1.1.1.1,nw_dst=1.1.10.10,tp_src=2404 actions=output:3
+ cookie=0x0, duration=26.009s, table=0, n_packets=51, n_bytes=5255, priority=300,tcp,in_port=1,nw_src=1.1.2.1,nw_dst=1.1.10.10,tp_src=2404 actions=output:3
+ cookie=0x0, duration=25.988s, table=0, n_packets=51, n_bytes=5097, priority=300,tcp,in_port=4,nw_src=1.1.3.1,nw_dst=1.1.10.10,tp_src=2404 actions=output:3
+ cookie=0x0, duration=25.969s, table=0, n_packets=48, n_bytes=4899, priority=300,tcp,in_port=4,nw_src=1.1.4.1,nw_dst=1.1.10.10,tp_src=2404 actions=output:3
+ cookie=0x0, duration=27.732s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.732s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=25.960s, table=0, n_packets=292, n_bytes=47910, priority=0 actions=drop
+
+===== SWITCH WANR1 =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=25.952s, table=0, n_packets=5, n_bytes=210, priority=400,arp actions=NORMAL
+ cookie=0x0, duration=25.942s, table=0, n_packets=30, n_bytes=2166, priority=300,tcp,in_port=1,nw_src=1.1.10.10,nw_dst=1.1.1.1,tp_dst=2404 actions=output:2
+ cookie=0x0, duration=25.932s, table=0, n_packets=50, n_bytes=5189, priority=300,tcp,in_port=2,nw_src=1.1.1.1,nw_dst=1.1.10.10,tp_src=2404 actions=output:1
+ cookie=0x0, duration=27.767s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.767s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=25.918s, table=0, n_packets=193, n_bytes=32971, priority=0 actions=drop
+
+===== SWITCH WANR2 =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=25.908s, table=0, n_packets=5, n_bytes=210, priority=400,arp actions=NORMAL
+ cookie=0x0, duration=25.898s, table=0, n_packets=31, n_bytes=2238, priority=300,tcp,in_port=1,nw_src=1.1.10.10,nw_dst=1.1.2.1,tp_dst=2404 actions=output:2
+ cookie=0x0, duration=25.886s, table=0, n_packets=51, n_bytes=5255, priority=300,tcp,in_port=2,nw_src=1.1.2.1,nw_dst=1.1.10.10,tp_src=2404 actions=output:1
+ cookie=0x0, duration=27.752s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.752s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=25.875s, table=0, n_packets=199, n_bytes=34386, priority=0 actions=drop
+
+===== SWITCH WANR3 =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=25.863s, table=0, n_packets=6, n_bytes=252, priority=400,arp actions=NORMAL
+ cookie=0x0, duration=25.850s, table=0, n_packets=32, n_bytes=2319, priority=300,tcp,in_port=1,nw_src=1.1.10.10,nw_dst=1.1.3.1,tp_dst=2404 actions=output:2
+ cookie=0x0, duration=25.832s, table=0, n_packets=31, n_bytes=2247, priority=300,tcp,in_port=1,nw_src=1.1.10.10,nw_dst=1.1.4.1,tp_dst=2404 actions=output:3
+ cookie=0x0, duration=25.841s, table=0, n_packets=51, n_bytes=5097, priority=300,tcp,in_port=2,nw_src=1.1.3.1,nw_dst=1.1.10.10,tp_src=2404 actions=output:1
+ cookie=0x0, duration=25.821s, table=0, n_packets=48, n_bytes=4899, priority=300,tcp,in_port=3,nw_src=1.1.4.1,nw_dst=1.1.10.10,tp_src=2404 actions=output:1
+ cookie=0x0, duration=27.515s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.515s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=25.809s, table=0, n_packets=206, n_bytes=31320, priority=0 actions=drop
+
+===== SWITCH DSS1GW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=25.801s, table=0, n_packets=5, n_bytes=210, priority=400,arp actions=NORMAL
+ cookie=0x0, duration=25.788s, table=0, n_packets=0, n_bytes=0, priority=350,tcp,nw_src=1.1.30.66,nw_dst=1.1.1.1,tp_dst=2404 actions=drop
+ cookie=0x0, duration=25.775s, table=0, n_packets=30, n_bytes=2166, priority=300,tcp,in_port=1,nw_src=1.1.10.10,nw_dst=1.1.1.1,tp_dst=2404 actions=CONTROLLER:65535
+ cookie=0x0, duration=25.764s, table=0, n_packets=50, n_bytes=5189, priority=300,tcp,in_port=2,nw_src=1.1.1.1,nw_dst=1.1.10.10,tp_src=2404 actions=CONTROLLER:256,output:1
+ cookie=0x0, duration=27.806s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:65535
+ cookie=0x0, duration=27.806s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=25.754s, table=0, n_packets=191, n_bytes=24580, priority=0 actions=drop
+
+===== SWITCH DSS2GW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=25.747s, table=0, n_packets=5, n_bytes=210, priority=400,arp actions=NORMAL
+ cookie=0x0, duration=25.738s, table=0, n_packets=0, n_bytes=0, priority=350,tcp,nw_src=1.1.30.66,nw_dst=1.1.2.1,tp_dst=2404 actions=drop
+ cookie=0x0, duration=25.729s, table=0, n_packets=31, n_bytes=2238, priority=300,tcp,in_port=1,nw_src=1.1.10.10,nw_dst=1.1.2.1,tp_dst=2404 actions=CONTROLLER:65535
+ cookie=0x0, duration=25.717s, table=0, n_packets=51, n_bytes=5255, priority=300,tcp,in_port=2,nw_src=1.1.2.1,nw_dst=1.1.10.10,tp_src=2404 actions=CONTROLLER:256,output:1
+ cookie=0x0, duration=27.797s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:65535
+ cookie=0x0, duration=27.797s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=25.706s, table=0, n_packets=201, n_bytes=30717, priority=0 actions=drop
+
+===== SWITCH DSS3GW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=25.697s, table=0, n_packets=5, n_bytes=210, priority=400,arp actions=NORMAL
+ cookie=0x0, duration=25.686s, table=0, n_packets=0, n_bytes=0, priority=350,tcp,nw_src=1.1.30.66,nw_dst=1.1.3.1,tp_dst=2404 actions=drop
+ cookie=0x0, duration=25.676s, table=0, n_packets=32, n_bytes=2319, priority=300,tcp,in_port=1,nw_src=1.1.10.10,nw_dst=1.1.3.1,tp_dst=2404 actions=CONTROLLER:65535
+ cookie=0x0, duration=25.663s, table=0, n_packets=51, n_bytes=5097, priority=300,tcp,in_port=2,nw_src=1.1.3.1,nw_dst=1.1.10.10,tp_src=2404 actions=CONTROLLER:256,output:1
+ cookie=0x0, duration=27.598s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:65535
+ cookie=0x0, duration=27.598s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=25.653s, table=0, n_packets=193, n_bytes=28291, priority=0 actions=drop
+
+===== SWITCH DSS4GW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=25.646s, table=0, n_packets=5, n_bytes=210, priority=400,arp actions=NORMAL
+ cookie=0x0, duration=25.635s, table=0, n_packets=0, n_bytes=0, priority=350,tcp,nw_src=1.1.30.66,nw_dst=1.1.4.1,tp_dst=2404 actions=drop
+ cookie=0x0, duration=25.624s, table=0, n_packets=31, n_bytes=2247, priority=300,tcp,in_port=1,nw_src=1.1.10.10,nw_dst=1.1.4.1,tp_dst=2404 actions=CONTROLLER:65535
+ cookie=0x0, duration=25.613s, table=0, n_packets=48, n_bytes=4899, priority=300,tcp,in_port=2,nw_src=1.1.4.1,nw_dst=1.1.10.10,tp_src=2404 actions=CONTROLLER:256,output:1
+ cookie=0x0, duration=27.577s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:65535
+ cookie=0x0, duration=27.577s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=25.603s, table=0, n_packets=195, n_bytes=31494, priority=0 actions=drop
+
+===== SWITCH DSS1ASW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=27.742s, table=0, n_packets=30, n_bytes=2166, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.742s, table=0, n_packets=50, n_bytes=5189, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.742s, table=0, n_packets=164, n_bytes=19753, priority=0 actions=CONTROLLER:65535
+ cookie=0x0, duration=25.595s, table=0, n_packets=19, n_bytes=2979, priority=1 actions=NORMAL
+
+===== SWITCH DSS2ASW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=27.728s, table=0, n_packets=31, n_bytes=2238, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.728s, table=0, n_packets=51, n_bytes=5255, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.728s, table=0, n_packets=169, n_bytes=21308, priority=0 actions=CONTROLLER:65535
+ cookie=0x0, duration=25.587s, table=0, n_packets=21, n_bytes=5227, priority=1 actions=NORMAL
+
+===== SWITCH DSS3ASW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=27.592s, table=0, n_packets=32, n_bytes=2319, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.592s, table=0, n_packets=51, n_bytes=5097, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.592s, table=0, n_packets=168, n_bytes=21814, priority=0 actions=CONTROLLER:65535
+ cookie=0x0, duration=25.580s, table=0, n_packets=21, n_bytes=5227, priority=1 actions=NORMAL
+
+===== SWITCH DSS4ASW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=27.552s, table=0, n_packets=31, n_bytes=2247, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.552s, table=0, n_packets=48, n_bytes=4899, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.552s, table=0, n_packets=165, n_bytes=21310, priority=0 actions=CONTROLLER:65535
+ cookie=0x0, duration=25.573s, table=0, n_packets=21, n_bytes=4586, priority=1 actions=NORMAL
+
+===== SWITCH DPSGW =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=27.725s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.725s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.725s, table=0, n_packets=242, n_bytes=40228, priority=0 actions=CONTROLLER:65535
+
+===== SWITCH DPSRS =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=27.710s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.710s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.710s, table=0, n_packets=247, n_bytes=46080, priority=0 actions=CONTROLLER:65535
+
+===== SWITCH DPSHV =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=27.665s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.665s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.665s, table=0, n_packets=250, n_bytes=49446, priority=0 actions=CONTROLLER:65535
+
+===== SWITCH DPSMV =====
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=27.649s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.649s, table=0, n_packets=0, n_bytes=0, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
+ cookie=0x0, duration=27.649s, table=0, n_packets=248, n_bytes=49314, priority=0 actions=CONTROLLER:65535
+

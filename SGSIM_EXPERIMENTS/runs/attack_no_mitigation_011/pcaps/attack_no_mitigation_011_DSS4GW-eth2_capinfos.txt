@@ -1,0 +1,31 @@
+File name:           /tmp/SGSIM_EXPERIMENTS_TMP/attack_no_mitigation_011/pcaps/attack_no_mitigation_011_DSS4GW-eth2.pcapng
+File type:           Wireshark/... - pcapng
+File encapsulation:  Ethernet
+File timestamp precision:  nanoseconds (9)
+Packet size limit:   file hdr: (not set)
+Number of packets:   325
+File size:           89 kB
+Data size:           78 kB
+Capture duration:    59.025948903 seconds
+Earliest packet time: 2026-03-31 12:02:06.103420236
+Latest packet time:   2026-03-31 12:03:05.129369139
+Data byte rate:      1,332 bytes/s
+Data bit rate:       10 kbps
+Average packet size: 242.03 bytes
+Average packet rate: 5 packets/s
+SHA256:              7e7afae49ee85537a1ce125f32dbfd59ceda1c20f907166dd9a0884ef8e6e6d5
+SHA1:                af20f4e991ea035fc786a1133752893c4522a96c
+Strict time order:   True
+Capture oper-sys:    Linux 6.17.0-19-generic
+Capture application: Dumpcap (Wireshark) 4.4.7
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = DSS4GW-eth2
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Operating system = Linux 6.17.0-19-generic
+                     Number of stat entries = 1
+                     Number of packets = 325

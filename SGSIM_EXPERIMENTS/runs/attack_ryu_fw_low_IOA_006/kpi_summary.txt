@@ -1,0 +1,31 @@
+=== KPI Summary: attack_ryu_fw_low_IOA_006 ===
+Condition:  attack_ryu_fw_low_IOA
+Timestamp:  2026-04-10T08:49:20+02:00
+Duration:   60s
+Preset:     iec104
+Interfaces: CONTROLSW-eth3 DSS1GW-eth1 DSS1GW-eth2 DSS1ASW-eth2 DSS1ASW-eth3 DSS2GW-eth1 DSS2GW-eth2 DSS2ASW-eth2 DSS2ASW-eth3 DSS3GW-eth1 DSS3GW-eth2 DSS3ASW-eth1 DSS3ASW-eth2 DSS4GW-eth1 DSS4GW-eth2 DSS4ASW-eth1 DSS4ASW-eth2
+
+--- IEC-104 Packet Rate (tcp.port==2404) ---
+  CONTROLSW-eth3                  peak= 105 pps  mean= 16.5 pps  total_pkts=991
+  DSS1GW-eth1                     peak=  56 pps  mean=  4.2 pps  total_pkts=255
+  DSS1GW-eth2                     peak=  56 pps  mean=  4.2 pps  total_pkts=255
+  DSS1ASW-eth2                    peak=  56 pps  mean=  4.2 pps  total_pkts=255
+  DSS1ASW-eth3                    peak=  56 pps  mean=  4.2 pps  total_pkts=255
+  DSS2GW-eth1                     peak=  49 pps  mean=  4.5 pps  total_pkts=268
+  DSS2GW-eth2                     peak=  49 pps  mean=  4.4 pps  total_pkts=263
+  DSS2ASW-eth2                    peak=  49 pps  mean=  4.4 pps  total_pkts=263
+  DSS2ASW-eth3                    peak=  49 pps  mean=  4.4 pps  total_pkts=263
+  DSS3GW-eth1                     peak=  51 pps  mean=  3.9 pps  total_pkts=233
+  DSS3GW-eth2                     peak=  51 pps  mean=  3.8 pps  total_pkts=229
+  DSS3ASW-eth1                    peak=  51 pps  mean=  3.8 pps  total_pkts=229
+  DSS3ASW-eth2                    peak=  51 pps  mean=  3.8 pps  total_pkts=229
+  DSS4GW-eth1                     peak=  45 pps  mean=  3.9 pps  total_pkts=232
+  DSS4GW-eth2                     peak=  45 pps  mean=  3.9 pps  total_pkts=232
+  DSS4ASW-eth1                    peak=  45 pps  mean=  3.9 pps  total_pkts=233
+  DSS4ASW-eth2                    peak=  45 pps  mean=  3.9 pps  total_pkts=233
+
+--- OVS Flow Table Changes (pre -> post) ---
+  (no flow table changes)
+
+--- OVS Port Drop Counters (pre -> post) ---
+  (no port drops detected)

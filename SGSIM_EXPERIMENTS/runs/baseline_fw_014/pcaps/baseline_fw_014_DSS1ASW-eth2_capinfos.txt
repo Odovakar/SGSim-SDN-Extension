@@ -1,0 +1,31 @@
+File name:           /tmp/SGSIM_EXPERIMENTS_TMP/baseline_fw_014/pcaps/baseline_fw_014_DSS1ASW-eth2.pcapng
+File type:           Wireshark/... - pcapng
+File encapsulation:  Ethernet
+File timestamp precision:  nanoseconds (9)
+Packet size limit:   file hdr: (not set)
+Number of packets:   242
+File size:           30 kB
+Data size:           22 kB
+Capture duration:    58.980516033 seconds
+Earliest packet time: 2026-03-31 11:18:25.162764213
+Latest packet time:   2026-03-31 11:19:24.143280246
+Data byte rate:      376 bytes/s
+Data bit rate:       3,009 bits/s
+Average packet size: 91.68 bytes
+Average packet rate: 4 packets/s
+SHA256:              aa8b8f4b148a0a2567ac71016c030ba2e5ce13989fb9671044c768687821987d
+SHA1:                1ff9fcf0164853b7451d693c01c974dcbb76d49c
+Strict time order:   True
+Capture oper-sys:    Linux 6.17.0-19-generic
+Capture application: Dumpcap (Wireshark) 4.4.7
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = DSS1ASW-eth2
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Operating system = Linux 6.17.0-19-generic
+                     Number of stat entries = 1
+                     Number of packets = 242

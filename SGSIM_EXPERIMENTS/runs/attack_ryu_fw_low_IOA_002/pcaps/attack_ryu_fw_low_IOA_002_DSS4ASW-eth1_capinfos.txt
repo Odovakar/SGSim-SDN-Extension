@@ -1,0 +1,31 @@
+File name:           /tmp/SGSIM_EXPERIMENTS_TMP/attack_ryu_fw_low_IOA_002/pcaps/attack_ryu_fw_low_IOA_002_DSS4ASW-eth1.pcapng
+File type:           Wireshark/... - pcapng
+File encapsulation:  Ethernet
+File timestamp precision:  nanoseconds (9)
+Packet size limit:   file hdr: (not set)
+Number of packets:   259
+File size:           39 kB
+Data size:           30 kB
+Capture duration:    59.104903404 seconds
+Earliest packet time: 2026-04-07 21:32:06.551584448
+Latest packet time:   2026-04-07 21:33:05.656487852
+Data byte rate:      510 bytes/s
+Data bit rate:       4,080 bits/s
+Average packet size: 116.39 bytes
+Average packet rate: 4 packets/s
+SHA256:              8deb2ccb97e1bb05ee60207c67580202b5fbf49098b9ea8ae593ed2e673daa82
+SHA1:                7d95a20610c35340f71297c1d3a77ed28e2d2646
+Strict time order:   True
+Capture oper-sys:    Linux 6.17.0-19-generic
+Capture application: Dumpcap (Wireshark) 4.4.7
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = DSS4ASW-eth1
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Operating system = Linux 6.17.0-19-generic
+                     Number of stat entries = 1
+                     Number of packets = 259

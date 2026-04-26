@@ -1,0 +1,1740 @@
+loading app /home/ubuntu/SGS/controller.py
+loading app ryu.controller.ofp_handler
+instantiating app /home/ubuntu/SGS/controller.py of Controller
+[2026-04-11 11:06:03] INFO ryu.base.app_manager: instantiating app ryu.controller.ofp_handler of OFPHandler
+[2026-04-11 11:06:06] INFO Controller: IEC-104 flows installed on dpid=1 (gateway=True)
+[2026-04-11 11:06:06] INFO Controller: Switch ready: dpid=1
+[2026-04-11 11:06:06] INFO Controller: IEC-104 flows installed on dpid=2 (gateway=True)
+[2026-04-11 11:06:06] INFO Controller: Switch ready: dpid=2
+[2026-04-11 11:06:06] INFO Controller: IEC-104 flows installed on dpid=3 (gateway=False)
+[2026-04-11 11:06:06] INFO Controller: Switch ready: dpid=3
+[2026-04-11 11:06:06] INFO Controller: IEC-104 flows installed on dpid=4 (gateway=False)
+[2026-04-11 11:06:06] INFO Controller: Switch ready: dpid=4
+[2026-04-11 11:06:06] INFO Controller: IEC-104 flows installed on dpid=5 (gateway=False)
+[2026-04-11 11:06:06] INFO Controller: Switch ready: dpid=5
+[2026-04-11 11:06:06] INFO Controller: IEC-104 flows installed on dpid=16 (gateway=False)
+[2026-04-11 11:06:06] INFO Controller: Switch ready: dpid=16
+[2026-04-11 11:06:06] INFO Controller: IEC-104 flows installed on dpid=17 (gateway=False)
+[2026-04-11 11:06:06] INFO Controller: Switch ready: dpid=17
+[2026-04-11 11:06:06] INFO Controller: IEC-104 flows installed on dpid=6 (gateway=False)
+[2026-04-11 11:06:06] INFO Controller: Switch ready: dpid=6
+[2026-04-11 11:06:06] INFO Controller: IEC-104 flows installed on dpid=7 (gateway=False)
+[2026-04-11 11:06:06] INFO Controller: Switch ready: dpid=7
+[2026-04-11 11:06:06] INFO Controller: IEC-104 flows installed on dpid=8 (gateway=False)
+[2026-04-11 11:06:06] INFO Controller: Switch ready: dpid=8
+[2026-04-11 11:06:06] INFO Controller: IEC-104 flows installed on dpid=9 (gateway=False)
+[2026-04-11 11:06:06] INFO Controller: Switch ready: dpid=9
+[2026-04-11 11:06:06] INFO Controller: IEC-104 flows installed on dpid=18 (gateway=True)
+[2026-04-11 11:06:06] INFO Controller: Switch ready: dpid=18
+[2026-04-11 11:06:06] INFO Controller: IEC-104 flows installed on dpid=19 (gateway=False)
+[2026-04-11 11:06:06] INFO Controller: Switch ready: dpid=19
+[2026-04-11 11:06:06] INFO Controller: IEC-104 flows installed on dpid=20 (gateway=True)
+[2026-04-11 11:06:06] INFO Controller: Switch ready: dpid=20
+[2026-04-11 11:06:06] INFO Controller: IEC-104 flows installed on dpid=21 (gateway=False)
+[2026-04-11 11:06:06] INFO Controller: Switch ready: dpid=21
+[2026-04-11 11:06:07] INFO Controller: IEC-104 flows installed on dpid=22 (gateway=False)
+[2026-04-11 11:06:07] INFO Controller: Switch ready: dpid=22
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x02 len=74
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x12 len=74
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=72
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x02 len=74
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x12 len=74
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=72
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:18] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:18] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:18] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:18] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:18] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:18] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=82
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x02 len=74
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x12 len=74
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=72
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=82
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x02 len=74
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x12 len=74
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x10 len=78
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=72
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:20] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:20] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:20] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:20] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:20] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:20] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:20] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:20] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:20] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:20] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=82
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=82
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:21] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:22] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:22] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:22] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:22] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:22] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:22] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:22] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:22] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:22] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:22] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:22] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:22] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:22] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:23] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:23] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:23] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:23] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:23] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:23] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:23] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:23] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:23] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:23] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:23] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:23] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=82
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=82
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:24] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=82
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=82
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:25] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=82
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=82
+[2026-04-11 11:06:26] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=82
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=82
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:27] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:28] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:28] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:28] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:28] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:28] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:28] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:28] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:28] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:28] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:28] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:28] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:28] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:28] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:28] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:29] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:29] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:29] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:29] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:29] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:29] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:29] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:29] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:29] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:29] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:29] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:29] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:30] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:30] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:30] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:30] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:30] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:30] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:30] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:30] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:30] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:30] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:30] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:30] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=82
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=82
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:31] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:32] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:32] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:32] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:32] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:32] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:32] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:32] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:32] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:32] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:32] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:32] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:32] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:32] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:32] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=82
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=82
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:33] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:34] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:34] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:34] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:34] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:34] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:34] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:34] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:34] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:34] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=82
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=82
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:35] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x18 len=153
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x02 len=74
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:46366 flags=0x12 len=74
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:46366 flags=0x10 len=66
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:46366 flags=0x18 len=72
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:36] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:37] WARNING Controller: [IEC104-CMD] src=1.1.10.10 dst=1.1.1.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:37] WARNING Controller: [CMD-STATE] src=1.1.10.10 stage=0 controls=1 doubles=1 rtus=1 ioas=1 window=8.0s
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:46366 flags=0x18 len=82
+[2026-04-11 11:06:37] WARNING Controller: [IEC104-ACT_CON] rtu=1.1.1.1 dst=1.1.10.10 type=46 ioa=5000 result=CONFIRMED cmd=double_cmd=OPEN
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:46366 flags=0x10 len=66
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:46366 flags=0x18 len=153
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:46366 flags=0x10 len=66
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:37] WARNING Controller: [IEC104-CMD] src=1.1.10.10 dst=1.1.1.1 type=46 cot=6 ioa=5001 cmd=double_cmd=OPEN
+[2026-04-11 11:06:37] WARNING Controller: [CMD-STATE] src=1.1.10.10 stage=0 controls=2 doubles=2 rtus=1 ioas=2 window=8.0s
+[2026-04-11 11:06:37] WARNING Controller: [SUSPICIOUS] src=1.1.10.10 controls=2 doubles=2 rtus=1 ioas=2 in 8.0s
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:46366 flags=0x10 len=66
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:46366 flags=0x18 len=82
+[2026-04-11 11:06:37] WARNING Controller: [IEC104-ACT_CON] rtu=1.1.1.1 dst=1.1.10.10 type=46 ioa=5001 result=CONFIRMED cmd=double_cmd=OPEN
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:46366 flags=0x10 len=66
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:37] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:38] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:38] WARNING Controller: [IEC104-CMD] src=1.1.10.10 dst=1.1.1.1 type=46 cot=6 ioa=5002 cmd=double_cmd=OPEN
+[2026-04-11 11:06:38] WARNING Controller: [CMD-STATE] src=1.1.10.10 stage=1 controls=3 doubles=3 rtus=1 ioas=3 window=8.0s
+[2026-04-11 11:06:38] WARNING Controller: [CONFIRMED] src=1.1.10.10 IEC-104 misuse: doubles=3 rtus=1 reason=sustained single-RTU double-command abuse in 8.0s
+[2026-04-11 11:06:38] WARNING Controller: [INLINE-BLOCK] src=1.1.10.10 reason=sustained single-RTU double-command abuse block_duration=120s
+[2026-04-11 11:06:38] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.1.1 type=46 cot=6 ioa=5002 cmd=double_cmd=OPEN (triggering packet blocked)
+[2026-04-11 11:06:38] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:38] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.1.1 type=46 cot=6 ioa=5002 cmd=double_cmd=OPEN
+[2026-04-11 11:06:38] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:46366 flags=0x18 len=153
+[2026-04-11 11:06:38] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:38] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:38] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:46366 flags=0x10 len=78
+[2026-04-11 11:06:38] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:38] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.1.1 type=46 cot=6 ioa=5002 cmd=double_cmd=OPEN
+[2026-04-11 11:06:38] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:38] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:38] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:06:38] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:38] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:38] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.1.1 type=46 cot=6 ioa=5002 cmd=double_cmd=OPEN
+[2026-04-11 11:06:38] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x18 len=153
+[2026-04-11 11:06:38] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:38] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:38] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:38] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:38] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:38] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:06:38] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:39] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.1.1 type=46 cot=6 ioa=5002 cmd=double_cmd=OPEN
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:46366 flags=0x18 len=165
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:39] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:39] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:51680 -> 1.1.2.1:2404 flags=0x02 len=74
+[2026-04-11 11:06:39] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:51680 flags=0x12 len=74
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:51680 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:39] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:51680 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:39] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:51680 flags=0x10 len=66
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:51680 flags=0x18 len=72
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:51680 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:39] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:51680 flags=0x18 len=153
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:51680 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:39] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:51680 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:39] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:39] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:40] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:51680 flags=0x10 len=66
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:40] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.1.1 type=46 cot=6 ioa=5002 cmd=double_cmd=OPEN
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:40] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:51680 -> 1.1.2.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:40] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.2.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:51680 -> 1.1.2.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:40] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.2.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:46366 flags=0x18 len=165
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:46366 -> 1.1.1.1:2404 flags=0x04 len=54
+[2026-04-11 11:06:40] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:40] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:51680 -> 1.1.2.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:40] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.2.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:51680 flags=0x18 len=153
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:40] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:40] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:40] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:51680 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:40] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:51680 -> 1.1.2.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:41] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.2.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:41] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=15
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:41] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=15
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=82
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:41] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:41] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:51680 -> 1.1.2.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:41] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.2.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:41] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=15
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:51680 flags=0x18 len=153
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:51680 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:41] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:41] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=15
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=82
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:41] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:41] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:06:41] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:42] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x18 len=153
+[2026-04-11 11:06:42] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:42] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:06:42] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:42] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:06:42] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:42] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:34672 -> 1.1.3.1:2404 flags=0x02 len=74
+[2026-04-11 11:06:42] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:06:42] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:34672 flags=0x12 len=74
+[2026-04-11 11:06:42] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:34672 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:42] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:06:42] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:34672 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:42] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:06:42] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:34672 flags=0x10 len=66
+[2026-04-11 11:06:42] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:34672 flags=0x18 len=72
+[2026-04-11 11:06:42] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:34672 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:42] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:06:42] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:51680 flags=0x18 len=153
+[2026-04-11 11:06:42] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:51680 -> 1.1.2.1:2404 flags=0x04 len=54
+[2026-04-11 11:06:42] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:42] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:42] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:42] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:06:43] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:43] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:34672 -> 1.1.3.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:43] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.3.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:43] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:34672 -> 1.1.3.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:43] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.3.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:43] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:34672 flags=0x18 len=153
+[2026-04-11 11:06:43] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:34672 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:43] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:06:43] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:34672 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:43] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:06:43] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:34672 flags=0x10 len=78
+[2026-04-11 11:06:43] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:34672 -> 1.1.3.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:43] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.3.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:43] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:34672 -> 1.1.3.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:43] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.3.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:43] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:43] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:43] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:06:43] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:44] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:34672 -> 1.1.3.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:44] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.3.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:44] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:34672 flags=0x18 len=165
+[2026-04-11 11:06:44] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:34672 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:44] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:06:44] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x18 len=153
+[2026-04-11 11:06:44] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:44] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:06:44] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:45] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:34672 -> 1.1.3.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:45] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.3.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:45] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:34672 flags=0x18 len=165
+[2026-04-11 11:06:45] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:34672 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:45] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:06:45] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:33506 -> 1.1.4.1:2404 flags=0x02 len=74
+[2026-04-11 11:06:45] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:06:45] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:33506 flags=0x12 len=74
+[2026-04-11 11:06:45] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:33506 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:45] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:06:45] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:33506 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:45] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:06:45] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:33506 flags=0x10 len=66
+[2026-04-11 11:06:45] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:33506 flags=0x18 len=72
+[2026-04-11 11:06:45] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:33506 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:45] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:06:45] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:33506 flags=0x18 len=153
+[2026-04-11 11:06:45] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:33506 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:45] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:06:45] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:33506 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:45] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:06:46] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:33506 flags=0x10 len=66
+[2026-04-11 11:06:46] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:33506 -> 1.1.4.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:46] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.4.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:46] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:46] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=15
+[2026-04-11 11:06:46] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:33506 -> 1.1.4.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:46] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.4.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:46] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x10 len=66
+[2026-04-11 11:06:46] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:34672 flags=0x18 len=165
+[2026-04-11 11:06:46] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:34672 -> 1.1.3.1:2404 flags=0x04 len=54
+[2026-04-11 11:06:46] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:06:46] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:33506 -> 1.1.4.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:46] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.4.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:46] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:46] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=15
+[2026-04-11 11:06:46] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x10 len=66
+[2026-04-11 11:06:46] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:33506 flags=0x18 len=153
+[2026-04-11 11:06:47] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:33506 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:47] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:06:47] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:33506 -> 1.1.4.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:47] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.4.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:47] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:33506 -> 1.1.4.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:47] WARNING Controller: [INLINE-DROP] src=1.1.10.10 dst=1.1.4.1 type=46 cot=6 ioa=5000 cmd=double_cmd=OPEN
+[2026-04-11 11:06:47] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:33506 flags=0x18 len=153
+[2026-04-11 11:06:47] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:33506 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:47] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:06:48] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:33506 flags=0x18 len=153
+[2026-04-11 11:06:48] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:33506 -> 1.1.4.1:2404 flags=0x04 len=54
+[2026-04-11 11:06:48] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:06:49] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:49] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=15
+[2026-04-11 11:06:49] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x10 len=66
+[2026-04-11 11:06:49] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x18 len=81
+[2026-04-11 11:06:49] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=15
+[2026-04-11 11:06:49] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x10 len=66
+[2026-04-11 11:06:50] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x11 len=66
+[2026-04-11 11:06:50] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:06:50] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:35470 flags=0x11 len=66
+[2026-04-11 11:06:50] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:35470 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:50] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:06:50] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x11 len=66
+[2026-04-11 11:06:50] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:51] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:59722 flags=0x11 len=66
+[2026-04-11 11:06:51] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:59722 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:51] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x02 len=74
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x12 len=74
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=72
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:53] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:53] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x02 len=74
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x12 len=74
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=72
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:54] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:06:54] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:55] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:55] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:55] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:55] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:55] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:06:55] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:55] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:55] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:55] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:06:55] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:55] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=16
+[2026-04-11 11:06:55] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:06:55] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=82
+[2026-04-11 11:06:55] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:55] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:55] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:06:55] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:55] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:55] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:06:55] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:55] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:56] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:06:56] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=82
+[2026-04-11 11:06:56] WARNING Controller: [RATE-ADVISORY] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 ppm=186 threshold=180
+[2026-04-11 11:06:56] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=16
+[2026-04-11 11:06:56] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:06:56] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=82
+[2026-04-11 11:06:56] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:56] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:56] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:06:56] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:56] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:56] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:56] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:06:56] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:56] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:56] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:56] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:06:57] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:57] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:57] WARNING Controller: [RATE-ADVISORY] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 ppm=186 threshold=180
+[2026-04-11 11:06:57] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:57] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:06:57] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x11 len=66
+[2026-04-11 11:06:57] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:06:57] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:45752 flags=0x11 len=66
+[2026-04-11 11:06:57] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:45752 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:57] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:06:57] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:57] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:57] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:57] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:06:58] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x11 len=66
+[2026-04-11 11:06:58] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:06:58] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:60740 flags=0x11 len=66
+[2026-04-11 11:06:58] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:60740 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:06:58] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:06:58] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:58] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:58] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:58] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:06:58] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:58] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:58] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:59] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:06:59] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:06:59] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:59] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:06:59] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:06:59] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:06:59] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:06:59] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:06:59] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=15
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=82
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x02 len=74
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x12 len=74
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=0
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:00] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:00] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=15
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=82
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x02 len=74
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x12 len=74
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=0
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:01] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:01] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:02] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:02] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:02] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=15
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:02] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=82
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:02] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=82
+[2026-04-11 11:07:02] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=16
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=82
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:02] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:02] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:02] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:02] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:03] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=15
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=82
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:03] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=82
+[2026-04-11 11:07:03] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=16
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=82
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:03] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:03] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:03] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:03] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:03] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:04] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:04] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:07:04] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:04] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:04] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:04] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:04] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:04] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:04] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:04] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:04] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:04] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:04] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:04] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:04] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:04] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:07:04] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:04] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:04] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:05] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:05] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:05] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:05] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:05] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:05] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:05] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:05] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:05] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:05] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:05] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:05] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:05] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:05] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:05] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:05] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:05] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:06] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:06] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:06] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:06] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:06] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:06] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:06] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:06] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:06] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:06] WARNING Controller: [RATE-ADVISORY] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 ppm=186 threshold=180
+[2026-04-11 11:07:06] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:06] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:06] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:06] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:06] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:06] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:06] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:07] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:07] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:07] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:07] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:07] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:07] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:07] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:07] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:07] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:07] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:07] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:07] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=15
+[2026-04-11 11:07:07] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:07] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:07] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=82
+[2026-04-11 11:07:07] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:07] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:07] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:07] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:07] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:08] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:08] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:08] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=15
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=82
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:08] WARNING Controller: [RATE-ADVISORY] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 ppm=186 threshold=180
+[2026-04-11 11:07:08] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:08] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:08] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:08] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:09] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:09] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:09] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:09] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:09] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=15
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=82
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:09] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:09] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:09] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:07:09] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:10] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:10] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:10] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=15
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=82
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:10] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:10] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:10] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=15
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=82
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:10] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:10] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:10] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:10] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:11] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:11] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:11] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=15
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=82
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:11] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:11] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:11] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:11] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:11] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:11] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:12] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:12] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:12] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:12] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=15
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=82
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:12] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:12] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:12] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:13] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:13] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:13] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=15
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=82
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:13] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:13] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:13] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:13] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:13] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:13] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:14] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:14] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:14] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:14] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:14] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:14] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:14] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:14] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:14] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:14] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:14] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:14] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:14] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:15] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:15] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:15] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:15] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:15] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:15] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:15] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:15] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:15] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:16] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:16] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:16] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:16] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=15
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=82
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:16] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:16] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:16] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:16] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:17] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:17] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:17] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:17] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=15
+[2026-04-11 11:07:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=82
+[2026-04-11 11:07:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:17] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:17] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:17] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:17] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:17] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:17] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:17] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:17] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:17] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:18] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:18] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:18] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:18] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:18] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:18] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:18] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:18] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:18] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:18] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:18] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:18] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:18] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:18] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:18] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:18] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:18] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:18] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:18] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:19] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:19] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:19] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:19] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:19] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:19] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:19] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=15
+[2026-04-11 11:07:19] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:19] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=82
+[2026-04-11 11:07:19] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:19] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:19] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:19] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:19] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:19] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:19] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:20] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:20] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:20] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=15
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=82
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:20] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:20] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:20] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:20] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=15
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=82
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:20] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:20] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:20] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:21] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:21] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:21] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:21] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:21] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=15
+[2026-04-11 11:07:21] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:21] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=82
+[2026-04-11 11:07:21] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:21] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:21] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:21] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:21] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:21] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:21] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:21] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:21] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:21] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:21] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:21] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:21] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:22] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:22] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:22] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:22] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:22] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:22] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=15
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=82
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:22] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:22] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:23] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:23] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:23] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=15
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=82
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:23] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:23] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=0
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:23] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:23] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:23] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:24] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:24] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:24] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:24] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:24] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=15
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=82
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:24] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:24] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:24] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:24] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:25] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:25] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=15
+[2026-04-11 11:07:25] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:25] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=82
+[2026-04-11 11:07:25] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:25] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:25] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:25] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:25] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:25] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:25] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:25] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:25] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:25] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:25] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:25] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:25] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:26] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:26] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:26] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:26] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:26] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:07:26] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:26] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:26] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:26] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:26] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:26] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:26] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:26] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:26] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:26] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:26] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:26] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:26] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:26] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:07:26] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:26] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:26] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:27] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:27] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:27] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=15
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=82
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:27] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:27] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x10 len=66
+[2026-04-11 11:07:27] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=0
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:27] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:27] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:27] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:28] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=15
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=82
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:28] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:28] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:28] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:28] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:28] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:28] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:29] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:29] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:29] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:29] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:29] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:29] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:29] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:29] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:29] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:29] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:29] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:29] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:29] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:29] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:29] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:29] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:30] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:30] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:30] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:30] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:30] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:30] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:30] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:30] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:30] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x18 len=153
+[2026-04-11 11:07:30] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.10.10:57348 -> 1.1.2.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:30] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.2.1 payload_len=6
+[2026-04-11 11:07:30] DEBUG Controller: [IEC104-SEEN] dpid=2 1.1.2.1:2404 -> 1.1.10.10:57348 flags=0x10 len=66
+[2026-04-11 11:07:30] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x18 len=153
+[2026-04-11 11:07:30] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.10.10:57172 -> 1.1.4.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:30] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.4.1 payload_len=6
+[2026-04-11 11:07:30] DEBUG Controller: [IEC104-SEEN] dpid=20 1.1.4.1:2404 -> 1.1.10.10:57172 flags=0x10 len=66
+[2026-04-11 11:07:31] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=153
+[2026-04-11 11:07:31] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:31] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:31] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:31] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=81
+[2026-04-11 11:07:31] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=15
+[2026-04-11 11:07:31] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66
+[2026-04-11 11:07:31] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x18 len=82
+[2026-04-11 11:07:31] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x18 len=153
+[2026-04-11 11:07:31] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.10.10:43778 -> 1.1.1.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:31] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.1.1 payload_len=6
+[2026-04-11 11:07:31] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.10.10:46040 -> 1.1.3.1:2404 flags=0x18 len=72
+[2026-04-11 11:07:31] DEBUG Controller: [INLINE-FWD] src=1.1.10.10 dst=1.1.3.1 payload_len=6
+[2026-04-11 11:07:31] DEBUG Controller: [IEC104-SEEN] dpid=18 1.1.3.1:2404 -> 1.1.10.10:46040 flags=0x10 len=66
+[2026-04-11 11:07:31] DEBUG Controller: [IEC104-SEEN] dpid=1 1.1.1.1:2404 -> 1.1.10.10:43778 flags=0x10 len=66

@@ -1,0 +1,31 @@
+File name:           /tmp/SGSIM_EXPERIMENTS_TMP/attack_ryu_fw_low_IOA_50_002/pcaps/attack_ryu_fw_low_IOA_50_002_CONTROLSW-eth3.pcapng
+File type:           Wireshark/... - pcapng
+File encapsulation:  Ethernet
+File timestamp precision:  nanoseconds (9)
+Packet size limit:   file hdr: (not set)
+Number of packets:   1,049
+File size:           133 kB
+Data size:           97 kB
+Capture duration:    59.771951408 seconds
+Earliest packet time: 2026-04-10 10:03:14.190513550
+Latest packet time:   2026-04-10 10:04:13.962464958
+Data byte rate:      1,629 bytes/s
+Data bit rate:       13 kbps
+Average packet size: 92.83 bytes
+Average packet rate: 17 packets/s
+SHA256:              9ea6bba16a375ca7f258a26660016ef454ecfd976c87afdb72ca93185792da1a
+SHA1:                0c6e39baac609c34f073f3bf3faedd8baaa8b2de
+Strict time order:   True
+Capture oper-sys:    Linux 6.17.0-20-generic
+Capture application: Dumpcap (Wireshark) 4.4.7
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = CONTROLSW-eth3
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Operating system = Linux 6.17.0-20-generic
+                     Number of stat entries = 1
+                     Number of packets = 1049

@@ -1,0 +1,31 @@
+File name:           /tmp/SGSIM_EXPERIMENTS_TMP/baseline_fw_004/pcaps/baseline_fw_004_CONTROLSW-eth3.pcapng
+File type:           Wireshark/... - pcapng
+File encapsulation:  Ethernet
+File timestamp precision:  nanoseconds (9)
+Packet size limit:   file hdr: (not set)
+Number of packets:   944
+File size:           118 kB
+Data size:           86 kB
+Capture duration:    59.586908458 seconds
+Earliest packet time: 2026-03-31 11:06:44.460783450
+Latest packet time:   2026-03-31 11:07:44.047691908
+Data byte rate:      1,452 bytes/s
+Data bit rate:       11 kbps
+Average packet size: 91.68 bytes
+Average packet rate: 15 packets/s
+SHA256:              5eeb4daf9f1751f46cf83ad320e4a78d3d93071b5366677df1141286534b8749
+SHA1:                7a9f93f51ee463d9b39ac852075695b13a8eaf56
+Strict time order:   True
+Capture oper-sys:    Linux 6.17.0-19-generic
+Capture application: Dumpcap (Wireshark) 4.4.7
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = CONTROLSW-eth3
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Operating system = Linux 6.17.0-19-generic
+                     Number of stat entries = 1
+                     Number of packets = 944

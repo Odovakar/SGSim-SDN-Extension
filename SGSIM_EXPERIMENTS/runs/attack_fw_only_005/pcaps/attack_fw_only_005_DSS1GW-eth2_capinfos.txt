@@ -1,0 +1,31 @@
+File name:           /tmp/SGSIM_EXPERIMENTS_TMP/attack_fw_only_005/pcaps/attack_fw_only_005_DSS1GW-eth2.pcapng
+File type:           Wireshark/... - pcapng
+File encapsulation:  Ethernet
+File timestamp precision:  nanoseconds (9)
+Packet size limit:   file hdr: (not set)
+Number of packets:   270
+File size:           33 kB
+Data size:           23 kB
+Capture duration:    58.016307348 seconds
+Earliest packet time: 2026-03-31 12:15:33.393575090
+Latest packet time:   2026-03-31 12:16:31.409882438
+Data byte rate:      411 bytes/s
+Data bit rate:       3,295 bits/s
+Average packet size: 88.53 bytes
+Average packet rate: 4 packets/s
+SHA256:              6c3520ee84c1aed1d388210668980a9667807ff84e84660d6bf182a43c04207b
+SHA1:                25716afd8db18e838a366ef38a507ef7c969229c
+Strict time order:   True
+Capture oper-sys:    Linux 6.17.0-19-generic
+Capture application: Dumpcap (Wireshark) 4.4.7
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = DSS1GW-eth2
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Operating system = Linux 6.17.0-19-generic
+                     Number of stat entries = 1
+                     Number of packets = 270

@@ -1,0 +1,19 @@
+OFPST_PORT reply (OF1.3) (xid=0x2): 6 ports
+  port LOCAL: rx pkts=0, bytes=0, drop=0, errs=0, frame=0, over=0, crc=0
+           tx pkts=0, bytes=0, drop=0, errs=0, coll=0
+           duration=19.744s
+  port  1: rx pkts=75, bytes=8579, drop=0, errs=0, frame=0, over=0, crc=0
+           tx pkts=195, bytes=26892, drop=0, errs=0, coll=0
+           duration=19.746s
+  port  4: rx pkts=138, bytes=15316, drop=0, errs=0, frame=0, over=0, crc=0
+           tx pkts=196, bytes=25540, drop=0, errs=0, coll=0
+           duration=19.747s
+  port  5: rx pkts=125, bytes=20730, drop=0, errs=0, frame=0, over=0, crc=0
+           tx pkts=129, bytes=20241, drop=0, errs=0, coll=0
+           duration=19.747s
+  port  2: rx pkts=82, bytes=10304, drop=0, errs=0, frame=0, over=0, crc=0
+           tx pkts=178, bytes=20225, drop=0, errs=0, coll=0
+           duration=19.747s
+  port  3: rx pkts=116, bytes=8432, drop=0, errs=0, frame=0, over=0, crc=0
+           tx pkts=337, bytes=41143, drop=0, errs=0, coll=0
+           duration=19.747s

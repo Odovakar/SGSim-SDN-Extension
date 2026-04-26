@@ -1,0 +1,17 @@
+run_id=attack_fw_only_015
+run_uuid=20260331T123015_174066
+condition=attack_fw_only
+run_number=015
+duration_seconds=60
+attack_delay_seconds=10
+capture_preset=iec104
+capture_start=2026-03-31T12:30:15+02:00
+attack_cue=n/a
+capture_end=2026-03-31T12:31:21+02:00
+wrapper_status=ok
+attack_launch_method=manual_from_mininet_console_after_visual_audible_cue
+ryu_log_source=none
+ryu_log_per_run=/tmp/SGSIM_EXPERIMENTS_TMP/attack_fw_only_015/logs/ryu_controller.log
+ryu_log_copy_status=skipped:no_controller
+outdir=/tmp/SGSIM_EXPERIMENTS_TMP/attack_fw_only_015
+logdir=/tmp/SGSIM_EXPERIMENTS_TMP/attack_fw_only_015/logs
