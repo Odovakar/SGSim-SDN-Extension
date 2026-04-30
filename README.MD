@@ -1,5 +1,5 @@
 # SGSim-SDN-EXTENSION
-This repository contains a Smart Grid Simulation simulator called SGSim, initially created and scripted by Filip Holik, and the original simulator can be found at this repository: [SGSim-Original](https://github.com/filipholik/SmartGridSim)
+This repository contains a Smart Grid simulator called SGSim, initially created and scripted by Filip Holik, and the original simulator can be found at this repository: [SGSim-Original](https://github.com/filipholik/SmartGridSim)
 
 The simulator emulates IEC-61850/IEC-60870 substations inside a Mininet network, running C-based HMI and RTU processes through Open vSwitch switches. The SDN extension adds a Ryu OpenFlow 1.3 controller (controller.py) that performs semantic packet inspection in order to detect and block malicious IEC-104 command patterns.
 
