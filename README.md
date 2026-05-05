@@ -1,8 +1,18 @@
 # SGSim-SDN-Extension
 
-**Protocol-Aware SDN Enforcement for Trusted-Path IEC-104 Command Abuse in Smart Grid Control Networks**
-Stian Lillevik, Livinus Obiora Nweke
-Noroff University College / NTNU
+This repository contains the SGSim extension and supplementary material developed for the bachelor's thesis:
+
+## **SDN-Based Behavioural Detection and Inline Blocking of IEC-104 Command Abuse in Smart Grid Control Networks**
+Stian Lillevik — Noroff University College, Norway
+
+---
+
+The results and methodology of this thesis have been synthesised into the following article, submitted for review at Elsevier Computer Networks:
+## **Protocol-Aware SDN Enforcement for Trusted-Path IEC-104 Command Abuse in Smart Grid Control Networks**
+> - Stian Lillevik and Livinus Obiora Nweke
+> - Noroff University College, Norway / Norwegian University of Science and Technology (NTNU), Norway
+
+---
 
 This repository extends the SGSim smart grid emulator originally developed by Filip Holik
 ([SGSim-Original](https://github.com/filipholik/SmartGridSim)) with a four-RTU topology,
@@ -29,7 +39,7 @@ SGSim-SDN-Extension/
     │   ├── rc.sh                    # Single run capture script
     │   └── rcwrap.sh                # Attack wrapper (launches attack at T+delay)
     ├── runs/                        # All experimental run folders (one per run)
-    │   └── &lt;condition&gt;_&lt;NNN&gt;/
+    │   └── <condition>_<number>/
     │       ├── run_meta.json        # Condition, timestamp, interfaces, switches
     │       ├── kpi_summary.txt      # Per-interface IEC-104 packet rate
     │       ├── runtime_ruleset.txt  # OVS flow table snapshot
