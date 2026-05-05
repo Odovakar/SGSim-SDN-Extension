@@ -163,7 +163,7 @@ SDN conditions (5 runs each).
 
 ## Reproducing the Results
 
-See `SGSIM_EXPERIMENTS/extraction/README.md` for all extraction and aggregation commands
+See `SGSIM_EXPERIMENTS/extraction/EXTRACTION.md` for all extraction and aggregation commands
 used to reproduce each table and figure in the paper.
 
 ---
