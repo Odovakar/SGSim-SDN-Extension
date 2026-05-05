@@ -1,2 +1,0 @@
-OFPST_FLOW reply (OF1.3) (xid=0x2):
- cookie=0x0, duration=3325.924s, table=0, n_packets=4793, n_bytes=610749, priority=0 actions=NORMAL

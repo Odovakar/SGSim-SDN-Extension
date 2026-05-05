@@ -1,5 +1,0 @@
-OFPST_FLOW reply (OF1.3) (xid=0x2):
- cookie=0x0, duration=64.219s, table=0, n_packets=46, n_bytes=3351, priority=10,tcp,tp_dst=2404 actions=CONTROLLER:256,NORMAL
- cookie=0x0, duration=64.219s, table=0, n_packets=71, n_bytes=7319, priority=10,tcp,tp_src=2404 actions=CONTROLLER:256,NORMAL
- cookie=0x0, duration=64.219s, table=0, n_packets=226, n_bytes=31425, priority=0 actions=CONTROLLER:65535
- cookie=0x0, duration=61.197s, table=0, n_packets=25, n_bytes=5773, priority=1 actions=NORMAL
