@@ -1,9 +1,13 @@
-# SGSim-SDN-Extension
+# Overview
 
-## Protocol-Aware SDN Enforcement for Trusted-Path IEC-104 Command Abuse in Smart Grid Control Networks
+This repository contains the extended SGSim simulator topology, IEC-104 misuse script, Ryu SDN controller and dataset, 
+used to support the results presented in the paper:
+> **Protocol-Aware SDN Enforcement for Trusted-Path IEC-104 Command Abuse in Smart Grid Control Networks**  
+> Stian Lillevik and Livinus Obiora Nweke  
+> Noroff University College, Norway; Norwegian University of Science and Technology (NTNU), Norway  
+> Submitted for review at Elsevier Computer Networks  
 
-> Stian Lillevik and Livinus Obiora Nweke
-> - Submitted for review at Elsevier Computer Networks
+
 
 ---
 
@@ -75,7 +79,7 @@ pip install ryu eventlet
 > Python 3.9.18 and create a dedicated virtualenv (`pyenv install 3.9.18 && pyenv virtualenv 3.9.18 ryu-env`).
 > On x86 machines, system Python 3.9 is sufficient.
 
-As of now the simulator binaries are compiled for ARM architectures and must be recompiled to run on x86 architectures.
+The simulator binaries are compiled for ARM architectures and must be recompiled to run on x86 architectures.
 A recompilation guide is described below:
 
 **1. Rebuild the IEC-60870/IEC-104 static library**
