@@ -13,33 +13,21 @@ char* GLOBAL_VAR_IP;
 
 static volatile bool connected = false;
 
-/* Timestamp of the last ASDU received from the RTU.
- * Used to detect the IEC-104 single-redundancy-group standby trap:
- * when an attacker's STARTDT_ACT pushes CONTROL to standby, the RTU stops
- * sending data ASDUs to CONTROL while the TCP connection stays alive.
- * S-frame ACKs keep lib60870's t1/t3 timers alive so CONTROL never detects
- * the failure on its own — only a data-inactivity check catches it. */
+/* Timestamp of the last ASDU received from the RTU.*/
 static volatile time_t last_asdu_time = 0;
 
-/* Reconnect if no data ASDU is received within this many seconds while
- * nominally connected.  The RTU sends a periodic ASDU every 1 s to the
- * active connection, so 10 s of silence reliably signals standby.
- * This must be checked frequently — see POLL_INTERVAL_MAX_S below. */
+/* Reconnect if no data ASDU is received within timing below. */
 #define DATA_INACTIVITY_TIMEOUT_S 10
 
-/* Maximum seconds to sleep between read-command polls.
- * Capped at 10 s (was 60 s) so the inactivity check above fires quickly
- * after standby is detected rather than up to 60 s later. */
+/* Maximum seconds to sleep between read-command polls. */
 #define POLL_INTERVAL_MAX_S 10
 
 char dbPath[128] = "../../../GUI/PHPserver/dbHandler/SGData.db";
 
-/* Open the database and apply robustness settings (busy timeout + WAL).
- * Returns SQLITE_OK on success; the caller must call sqlite3_close() when done. */
 static int open_db(sqlite3 **db) {
     int rc = sqlite3_open(dbPath, db);
     if (rc != SQLITE_OK) {
-        /* *db may be NULL on open failure; guard before dereferencing */
+        /* *db may be NULL, so check first. */
         fprintf(stderr, "Cannot open database: %s\n",
                 (*db) ? sqlite3_errmsg(*db) : "unknown error");
         sqlite3_close(*db);
@@ -67,8 +55,7 @@ static const char* table_for_ip(const char* ip) {
     return NULL;
 }
 
-/* Create DSS3/DSS4 sensor tables and their infos rows if they do not yet exist.
- * Called once at startup so concurrent CONTROL sessions find a valid schema. */
+/* Create DSS3/DSS4 tables */
 static void ensure_schema(void) {
     sqlite3 *db;
     if (open_db(&db) != SQLITE_OK) return;
@@ -291,7 +278,6 @@ connectionHandler (void* parameter, CS104_Connection connection, CS104_Connectio
 
 /*
  * CS101_ASDUReceivedHandler implementation
- *
  * For CS104 the address parameter has to be ignored
  */
 static bool
@@ -412,8 +398,7 @@ main(int argc, char** argv)
     GLOBAL_VAR_IP = malloc(strlen(ip) + 1);
     sprintf(GLOBAL_VAR_IP,"%s", ip);
 
-    /* Ensure DSS3/DSS4 tables and infos rows exist before any concurrent
-     * CONTROL session tries to write to them. */
+    /* Ensure DSS3/DSS4 tables and infos rows exist. */
     ensure_schema();
 
     signal(SIGINT,INTHandler);
@@ -449,11 +434,6 @@ main(int argc, char** argv)
                 int randTimeInterval = ((rand() % (POLL_INTERVAL_MAX_S - 1)) + 1) * 1000;
                 printf("Next read request in: %i seconds.\n", randTimeInterval / 1000);
                 Thread_sleep(randTimeInterval);
-
-                /* Standby-trap guard: if the RTU pushed us to standby (e.g. due to an
-                 * attacker's STARTDT_ACT), data ASDUs stop arriving but the TCP
-                 * connection stays alive and connected=true forever.  Force a
-                 * reconnect so we re-send STARTDT_ACT and become active again. */
                 if (last_asdu_time > 0 &&
                     (time(NULL) - last_asdu_time) > DATA_INACTIVITY_TIMEOUT_S) {
                     printf("No ASDU received for %d s — possible standby trap, reconnecting...\n",

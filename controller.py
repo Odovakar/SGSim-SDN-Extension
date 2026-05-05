@@ -16,11 +16,9 @@ class Controller(app_manager.RyuApp):
     IEC104_PORT = 2404
 
     # Max bytes to capture from mirrored IEC-104 packets (non-gateway switches).
-    # Gateway switches use OFPCML_NO_BUFFER (full packet to controller).
     MIRROR_MAX_LEN = 256
 
     # RTU-side gateway switches: RTU IP → dpid.
-    # Only these switches act as inline gatekeepers for HMI→RTU traffic.
     FLOW_MONITOR = {
         "1.1.1.1": 1,   # DSS1GW
         "1.1.2.1": 2,   # DSS2GW
@@ -28,17 +26,14 @@ class Controller(app_manager.RyuApp):
         "1.1.4.1": 20,  # DSS4GW
     }
 
-    # ------------------------------------------------------------------
     # Command detection thresholds
-    # ------------------------------------------------------------------
+
     CMD_WINDOW_SEC = 8.0              # keep tight window for fast attacks
     BLOCK_DURATION_SEC = 120.0        # longer block to cover pivots
     STAGE1_DOUBLE_THRESHOLD = 2
     STAGE1_CONTROL_THRESHOLD = 2
-    # Block after 3 sequential double commands toward a single RTU (baseline)
     SUSTAINED_SINGLE_RTU_THRESHOLD = 3
 
-    # Advisory rate limit (no enforcement action)
     PPM_WINDOW_SEC = 10.0
     PPM_THRESHOLD = 180
 
@@ -56,21 +51,20 @@ class Controller(app_manager.RyuApp):
         # command_events[src_ip] = deque of event dicts
         self.command_events = defaultdict(deque)
 
-        # src_ip → detection stage: 0=normal, 1=suspicious, 2=blocked
+        # src_ip -> detection stage: 0=normal, 1=suspicious, 2=blocked
         self.src_stage = defaultdict(int)
 
         # blocked_until[src_ip] = expiry timestamp (float)
         self.blocked_until = {}
 
-        # Persistent strike counter that survives block expiry
+        # Persistent strike counter -> survives block expiry
         self.src_strikes = defaultdict(int)
 
         sweep = threading.Thread(target=self._background_sweep, daemon=True)
         sweep.start()
 
-    # ------------------------------------------------------------------
+
     # Logging setup
-    # ------------------------------------------------------------------
     def _configure_timestamped_logging(self):
         fmt = "[%(asctime)s] %(levelname)s %(name)s: %(message)s"
         datefmt = "%Y-%m-%d %H:%M:%S"
@@ -84,9 +78,8 @@ class Controller(app_manager.RyuApp):
         self.logger.propagate = True
         self.logger.setLevel(logging.DEBUG)
 
-    # ------------------------------------------------------------------
-    # Generic flow helper
-    # ------------------------------------------------------------------
+
+    # Flow helper function.
     def add_flow(self, datapath, priority, match, actions, buffer_id=None,
                  idle_timeout=0, hard_timeout=0):
         ofproto = datapath.ofproto
@@ -107,9 +100,8 @@ class Controller(app_manager.RyuApp):
 
         datapath.send_msg(parser.OFPFlowMod(**kwargs))
 
-    # ------------------------------------------------------------------
-    # Install IEC-104 flows on a switch
-    # ------------------------------------------------------------------
+
+    # Install IEC-104 flows on switch
     def add_gateway_iec104_flows(self, datapath):
         ofproto = datapath.ofproto
         parser = datapath.ofproto_parser
@@ -125,14 +117,13 @@ class Controller(app_manager.RyuApp):
             tcp_src=self.IEC104_PORT,
         )
 
-        # RTU→HMI responses are always mirror+forward — no blocking needed.
+        # RTU→HMI responses are always mirror+forward —> no blocking needed.
         mirror_fwd = [
             parser.OFPActionOutput(ofproto.OFPP_CONTROLLER, self.MIRROR_MAX_LEN),
             parser.OFPActionOutput(ofproto.OFPP_NORMAL),
         ]
 
         if datapath.id in set(self.FLOW_MONITOR.values()):
-            # Gateway switch: controller is the sole forwarder for HMI→RTU.
             to_rtu = [parser.OFPActionOutput(
                 ofproto.OFPP_CONTROLLER, ofproto.OFPCML_NO_BUFFER
             )]
@@ -147,16 +138,14 @@ class Controller(app_manager.RyuApp):
             datapath.id, datapath.id in set(self.FLOW_MONITOR.values())
         )
 
-    # ------------------------------------------------------------------
-    # Switch ready
-    # ------------------------------------------------------------------
+    # Switch ready handler
     @set_ev_cls(ofp_event.EventOFPSwitchFeatures, CONFIG_DISPATCHER)
     def switch_features_handler(self, ev):
         datapath = ev.msg.datapath
         ofproto = datapath.ofproto
         parser = datapath.ofproto_parser
 
-        # Table-miss: send everything to controller (lowest priority)
+        # Table-miss: send everything to controller
         match = parser.OFPMatch()
         actions = [parser.OFPActionOutput(ofproto.OFPP_CONTROLLER, ofproto.OFPCML_NO_BUFFER)]
         self.add_flow(datapath, 0, match, actions)
@@ -166,9 +155,8 @@ class Controller(app_manager.RyuApp):
 
         self.logger.info("Switch ready: dpid=%s", datapath.id)
 
-    # ------------------------------------------------------------------
-    # Advisory PPM helper
-    # ------------------------------------------------------------------
+
+    # (Old) PPM helper
     def record_and_count_ppm(self, flow_key):
         now = time.time()
         timestamps = self.flow_timestamps[flow_key]
@@ -177,9 +165,7 @@ class Controller(app_manager.RyuApp):
         self.flow_timestamps[flow_key] = [t for t in timestamps if t >= cutoff]
         return len(self.flow_timestamps[flow_key]) * 6
 
-    # ------------------------------------------------------------------
     # IEC-104 parsing helpers
-    # ------------------------------------------------------------------
     def _extract_tcp_payload(self, raw_data, ip_pkt, tcp_pkt):
         start = 14 + ip_pkt.header_length * 4 + tcp_pkt.offset * 4
         if start >= len(raw_data):
@@ -228,9 +214,7 @@ class Controller(app_manager.RyuApp):
             return "double_cmd=raw(%d)" % dco
         return "type_%d" % type_id
 
-    # ------------------------------------------------------------------
-    # Command state tracking
-    # ------------------------------------------------------------------
+    # Command state tracking and detection
     def _prune_command_state(self, src_ip, now):
         dq = self.command_events[src_ip]
         cutoff = now - self.CMD_WINDOW_SEC
@@ -285,7 +269,6 @@ class Controller(app_manager.RyuApp):
                 stage = 1
 
         if stage == 1:
-            # Repeat offenders re-block faster (strike_factor lowers threshold)
             strike_factor = max(1, self.src_strikes[src_ip])
             sustained_single = double_count >= max(
                 1, self.SUSTAINED_SINGLE_RTU_THRESHOLD // strike_factor
@@ -300,15 +283,12 @@ class Controller(app_manager.RyuApp):
                 )
                 self._activate_inline_block(src_ip, reason)
 
-    # ------------------------------------------------------------------
-    # Inline block management
-    # ------------------------------------------------------------------
+    # Inline block handling
     def _is_currently_blocked(self, src_ip):
         expiry = self.blocked_until.get(src_ip)
         return expiry is not None and time.time() < expiry
 
     def _activate_inline_block(self, src_ip, reason):
-        """Record a block for src_ip lasting BLOCK_DURATION_SEC seconds."""
         expiry = (time.time() + self.BLOCK_DURATION_SEC
                   if self.BLOCK_DURATION_SEC != float("inf")
                   else float("inf"))
@@ -321,9 +301,8 @@ class Controller(app_manager.RyuApp):
             "permanent" if expiry == float("inf") else f"{self.BLOCK_DURATION_SEC:.0f}s"
         )
 
-    # ------------------------------------------------------------------
-    # Explicit PacketOut forwarding helper
-    # ------------------------------------------------------------------
+
+    # PacketOut forwarding helper function
     def _forward_packet(self, datapath, in_port, data):
         ofproto = datapath.ofproto
         parser = datapath.ofproto_parser
@@ -336,9 +315,7 @@ class Controller(app_manager.RyuApp):
         )
         datapath.send_msg(out)
 
-    # ------------------------------------------------------------------
     # Background cleanup
-    # ------------------------------------------------------------------
     def _background_sweep(self):
         while True:
             time.sleep(2)
@@ -351,7 +328,7 @@ class Controller(app_manager.RyuApp):
                     self.src_stage[src_ip] = 0
                     self.logger.info("[INLINE-EXPIRED] src=%s block expired", src_ip)
 
-            # Prune PPM tracking
+            # Prune ppm tracking
             ppm_cutoff = now - self.PPM_WINDOW_SEC
             for flow_key in list(self.alerted_flows):
                 active = [t for t in self.flow_timestamps.get(flow_key, [])
@@ -359,7 +336,7 @@ class Controller(app_manager.RyuApp):
                 if not active:
                     self.alerted_flows.discard(flow_key)
 
-            # Prune command state for inactive sources; keep history for strikers
+            # Prune command state for inactive sources, but keep history for strikers
             for src_ip in list(self.command_events.keys()):
                 self._prune_command_state(src_ip, now)
                 if (not self.command_events[src_ip]
@@ -367,9 +344,8 @@ class Controller(app_manager.RyuApp):
                         and self.src_strikes[src_ip] == 0):
                     del self.command_events[src_ip]
 
-    # ------------------------------------------------------------------
-    # Main PacketIn handler
-    # ------------------------------------------------------------------
+
+    # PacketIn handler
     @set_ev_cls(ofp_event.EventOFPPacketIn, MAIN_DISPATCHER)
     def packet_in_handler(self, ev):
         msg = ev.msg
@@ -393,9 +369,7 @@ class Controller(app_manager.RyuApp):
         dst_mac = eth.dst
         self.mac_to_port[dpid][src_mac] = in_port
 
-        # ------------------------------------------------------------------
         # IEC-104 inspection path
-        # ------------------------------------------------------------------
         if eth.ethertype == ether_types.ETH_TYPE_IP:
             ip_pkt = pkt.get_protocol(ipv4.ipv4)
             tcp_pkt = pkt.get_protocol(tcp.tcp)
@@ -405,7 +379,6 @@ class Controller(app_manager.RyuApp):
                 is_from_rtu = tcp_pkt.src_port == self.IEC104_PORT
 
                 if is_to_rtu or is_from_rtu:
-                    # Only process on the correct gateway for this RTU.
                     if is_to_rtu   and self.FLOW_MONITOR.get(ip_pkt.dst) != dpid:
                         return
                     if is_from_rtu and self.FLOW_MONITOR.get(ip_pkt.src) != dpid:
@@ -420,11 +393,9 @@ class Controller(app_manager.RyuApp):
                     payload = self._extract_tcp_payload(msg.data, ip_pkt, tcp_pkt)
                     iec = self._parse_iec104(payload)
 
-                    # ==================================================
-                    # HMI → RTU  (controller is the sole forwarder)
-                    # ==================================================
+                    # HMI -> RTU  forwarder
                     if is_to_rtu:
-                        # Advisory rate check
+                        # Rate check
                         flow_key = (ip_pkt.src, tcp_pkt.src_port,
                                     ip_pkt.dst, tcp_pkt.dst_port)
                         ppm = self.record_and_count_ppm(flow_key)
@@ -442,7 +413,7 @@ class Controller(app_manager.RyuApp):
                             self._is_control_type(iec["type_id"])
                         )
 
-                        # ── Step 1: already-blocked source ──────────────────
+                        #  Step 1: already-blocked source
                         if self._is_currently_blocked(ip_pkt.src):
                             if is_control_request:
                                 cmd_txt = self._command_text(iec["type_id"], iec["cmd"])
@@ -453,7 +424,7 @@ class Controller(app_manager.RyuApp):
                                 )
                                 return  # DROP
 
-                            # Non-command from blocked source → keep TCP alive
+                            # Non-command from blocked source -> keep TCP alive
                             self.logger.debug(
                                 "[INLINE-FWD] src=%s dst=%s payload_len=%d",
                                 ip_pkt.src, ip_pkt.dst, len(payload)
@@ -461,7 +432,7 @@ class Controller(app_manager.RyuApp):
                             self._forward_packet(datapath, in_port, msg.data)
                             return
 
-                        # ── Step 2: record and evaluate new command events ───
+                        #  Step 2: record and evaluate new commands
                         if is_control_request:
                             cmd_txt = self._command_text(iec["type_id"], iec["cmd"])
                             self.logger.warning(
@@ -486,15 +457,13 @@ class Controller(app_manager.RyuApp):
                                 )
                                 return  # DROP
 
-                        # ── Step 3: forward benign / below-threshold traffic ─
+                        # step 3: forward benign/below threshold traffic
                         self._forward_packet(datapath, in_port, msg.data)
                         return
 
-                    # ==================================================
                     # RTU → HMI  (already forwarded by mirror rule, observe only)
-                    # ==================================================
                     if is_from_rtu:
-                        if (iec is not None and iec["cot"] == 7 and
+                        if (iec is not None and iec["cot"] == 7 and #
                                 self._is_control_type(iec["type_id"])):
                             cmd_txt = self._command_text(iec["type_id"], iec["cmd"])
                             result = "REJECTED" if iec["negative"] else "CONFIRMED"
@@ -505,9 +474,7 @@ class Controller(app_manager.RyuApp):
                             )
                         return
 
-        # ------------------------------------------------------------------
-        # Basic L2 learning switch for all other traffic
-        # ------------------------------------------------------------------
+        # Basic L2 boilerplate learning switch for all other traffic
         if dst_mac in self.mac_to_port[dpid]:
             out_port = self.mac_to_port[dpid][dst_mac]
         else:

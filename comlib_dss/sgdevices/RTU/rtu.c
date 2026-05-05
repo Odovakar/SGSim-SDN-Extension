@@ -56,7 +56,7 @@ clockSyncHandler (void* parameter, IMasterConnection connection, CS101_ASDU asdu
     /* Set time for ACT_CON message */
     CP56Time2a_setFromMsTimestamp(newTime, Hal_getTimeInMs());
 
-    /* update system time here */
+    /* update system time */
 
     return true;
 }
@@ -100,7 +100,6 @@ CS101_ASDU insertFloatValues5(CS101_ASDU asdu)
 	return asdu; 
 }
 
-/* 2. Sends 10 M_ME_TF_1 messages in 1s intevals - an example of real traffic. */ 
 void emulateMeTfMessages(IMasterConnection connection)
 {
 	for (int i = 0; i < 10; i++) {
@@ -246,8 +245,6 @@ connectionEventHandler(void* parameter, IMasterConnection con, CS104_PeerConnect
 void emulateRealTraffic(IMasterConnection connection)
 {
 	CS101_AppLayerParameters alParams = IMasterConnection_getApplicationLayerParameters(connection);
-
- 	/* 1. M_ME_NC_1 Real Traffic Example */ 
 	CS101_ASDU newAsdu = CS101_ASDU_create(alParams, false, CS101_COT_INTERROGATED_BY_STATION,
 		0, 1, false, false);
 
@@ -263,9 +260,7 @@ void emulateRealTraffic(IMasterConnection connection)
 	InformationObject_destroy(io);
 	IMasterConnection_sendASDU(connection, newAsdu);
 	CS101_ASDU_destroy(newAsdu);
-	/* END */
 
-	/* 2. M_ME_TF_1 Real Traffic Example */ 
 	CP56Time2a timestamp = CP56Time2a_createFromMsTimestamp(NULL, Hal_getTimeInMs()); 
 	newAsdu = CS101_ASDU_create(alParams, false, CS101_COT_SPONTANEOUS,
 		0, 1, false, false);
@@ -275,9 +270,7 @@ void emulateRealTraffic(IMasterConnection connection)
 	InformationObject_destroy(io);
 	IMasterConnection_sendASDU(connection, newAsdu);
 	CS101_ASDU_destroy(newAsdu);
-	/* END */
 
-	/* 3. M_SP_TB_1 Real Traffic Example */ 
 	newAsdu = CS101_ASDU_create(alParams, false, CS101_COT_SPONTANEOUS, 0, 1, false, false);
 
 	io = (InformationObject) SinglePointWithCP56Time2a_create(NULL, 11, false, IEC60870_QUALITY_GOOD,timestamp);
@@ -286,9 +279,7 @@ void emulateRealTraffic(IMasterConnection connection)
 	InformationObject_destroy(io);
 	IMasterConnection_sendASDU(connection, newAsdu);
 	CS101_ASDU_destroy(newAsdu);
-	/* END */
 
-	/* 4. M_IT_TB_1 Real Traffic Example */ 
 	BinaryCounterReading bcr = BinaryCounterReading_create(NULL, 0, 10, false, false, false); 
 	newAsdu = CS101_ASDU_create(alParams, false, CS101_COT_SPONTANEOUS,
 		0, 1, false, false);
@@ -301,10 +292,9 @@ void emulateRealTraffic(IMasterConnection connection)
 	InformationObject_destroy(io);
 	IMasterConnection_sendASDU(connection, newAsdu);
 	CS101_ASDU_destroy(newAsdu);
-	/* END */
 }
 
-//Response for Read Request 
+//Response for read request
 void createReadResponse(IMasterConnection connection, int IOA)
 {
 	CS101_AppLayerParameters alParams = IMasterConnection_getApplicationLayerParameters(connection);
@@ -368,39 +358,36 @@ main(int argc, char** argv)
     /* Add Ctrl-C handler */
     signal(SIGINT, sigint_handler);
 
-    /* create a new slave/server instance with default connection parameters and
-     * default message queue size */
+    /* create a new slave/server instance with default connection parameters*/
     CS104_Slave slave = CS104_Slave_create(10, 10);
 
     CS104_Slave_setLocalAddress(slave, "0.0.0.0");
 
-    /* Set mode to a single redundancy group
-     * NOTE: library has to be compiled with CONFIG_CS104_SUPPORT_SERVER_MODE_SINGLE_REDUNDANCY_GROUP enabled (=1)
-     */
+    /* Set mode to a single redundancy group */
     CS104_Slave_setServerMode(slave, CS104_MODE_SINGLE_REDUNDANCY_GROUP);
 
-    /* get the connection parameters - we need them to create correct ASDUs */
+    /* get connection parameters */
     CS101_AppLayerParameters alParams = CS104_Slave_getAppLayerParameters(slave);
 
-    /* set the callback handler for the clock synchronization command */
+    /* set callback handler for clock synchronization command */
     CS104_Slave_setClockSyncHandler(slave, clockSyncHandler, NULL);
 
-    /* set the callback handler for the interrogation command */
+    /* set callback handler forwe interrogation command */
     CS104_Slave_setInterrogationHandler(slave, interrogationHandler, NULL);
 
     /* set handler for other message types */
     CS104_Slave_setASDUHandler(slave, asduHandler, NULL);
 
-    /* set handler to handle connection requests (optional) */
+    /* set handler to handle connection requests */
     CS104_Slave_setConnectionRequestHandler(slave, connectionRequestHandler, NULL);
 
-    /* set handler to track connection events (optional) */
+    /* set handler to track connection events) */
     CS104_Slave_setConnectionEventHandler(slave, connectionEventHandler, NULL);
 
     /* uncomment to log messages */
     //CS104_Slave_setRawMessageHandler(slave, rawMessageHandler, NULL);
 
-    // Handler for Read Request messages 
+    // Handler for read req messages 
     CS104_Slave_setReadHandler(slave, readHandler, NULL); 
 
     CS104_Slave_start(slave);
@@ -421,10 +408,6 @@ main(int argc, char** argv)
 			0, 1, false, false);
 	newAsdu = insertFloatValues5(newAsdu); 		
 
-        /* Add ASDU to slave event queue - don't release the ASDU afterwards!
-         * The ASDU will be released by the Slave instance when the ASDU
-         * has been sent.
-         */
         CS104_Slave_enqueueASDU(slave, newAsdu);
 
         CS101_ASDU_destroy(newAsdu);

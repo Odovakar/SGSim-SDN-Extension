@@ -65,7 +65,7 @@ sudo ovs-ofctl -O $OFV add-flow DSS4GW "priority=300,tcp,in_port=1,nw_src=1.1.10
 sudo ovs-ofctl -O $OFV add-flow DSS4GW "priority=300,tcp,in_port=2,nw_src=1.1.4.1,nw_dst=1.1.10.10,tp_src=2404,actions=CONTROLLER:256,output:1"
 sudo ovs-ofctl -O $OFV add-flow DSS4GW "priority=0,actions=drop"
 
-# Access switches — transparent L2
+# Access switches — L2
 sudo ovs-ofctl -O $OFV add-flow DSS1ASW "priority=1,actions=NORMAL"
 sudo ovs-ofctl -O $OFV add-flow DSS2ASW "priority=1,actions=NORMAL"
 sudo ovs-ofctl -O $OFV add-flow DSS3ASW "priority=1,actions=NORMAL"

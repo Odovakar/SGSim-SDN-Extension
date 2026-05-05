@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # run_capture.sh — parallel tshark captures + OVS snapshots + run_meta.json
-# Adapted for SGSim Mininet IEC-104 experiment topology.
 
 set -euo pipefail
 
@@ -174,7 +173,7 @@ cat > "${OUTDIR}/run_meta.json" <<EOF
 }
 EOF
 
-echo "Starting parallel captures..."
+echo "Starting parallel captures"
 PIDS=()
 
 for IF in "${IFACES[@]}"; do
@@ -216,7 +215,7 @@ for IF in "${IFACES[@]}"; do
   sha256sum "$PCAP_OUT" > "${PCAP_OUT%.pcapng}.sha256" 2>&1 || true
 done
 
-echo "Extracting IEC-104 control command statistics..."
+echo "Extracting IEC-104 control command statistics"
 {
   for f in "${PCAPDIR}"/*.pcapng; do
     [[ -f "$f" ]] || continue
