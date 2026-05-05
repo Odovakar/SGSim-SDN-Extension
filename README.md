@@ -108,7 +108,7 @@ done
 cd ../GUI/Application && make clean && make
 ```
 
-**6. Remove pyenv from StartRyuController.sh **
+**6. Remove pyenv from StartRyuController.sh**
 Edit `StartRyuController.sh` comment out line 4, scroll to the end of the script and comment out line 19, and uncomment line 21.
 
 ---
