@@ -1,0 +1,81 @@
+run_id,condition,block_timestamp,src,reason
+attack_ryu_fw_001,attack_ryu_fw,2026-04-03 16:56:14,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_002,attack_ryu_fw,2026-04-03 16:58:20,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_003,attack_ryu_fw,2026-04-03 16:53:44,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_004,attack_ryu_fw,2026-04-03 17:00:07,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_005,attack_ryu_fw,2026-04-03 17:02:28,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_006,attack_ryu_fw,2026-04-03 17:58:06,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_007,attack_ryu_fw,2026-04-03 17:59:58,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_008,attack_ryu_fw,2026-04-03 18:03:48,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_009,attack_ryu_fw,2026-04-03 18:05:40,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_010,attack_ryu_fw,2026-04-03 18:08:12,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_011,attack_ryu_fw,2026-04-03 18:10:20,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_012,attack_ryu_fw,2026-04-03 20:27:49,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_013,attack_ryu_fw,2026-04-03 20:30:30,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_014,attack_ryu_fw,2026-04-03 20:32:41,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_015,attack_ryu_fw,2026-04-03 20:34:51,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_1000_001,attack_ryu_fw_1000,2026-04-03 20:53:03,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_1000_002,attack_ryu_fw_1000,2026-04-03 20:58:13,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_1000_003,attack_ryu_fw_1000,2026-04-03 21:00:16,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_1000_004,attack_ryu_fw_1000,2026-04-03 21:02:02,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_1000_005,attack_ryu_fw_1000,2026-04-03 21:04:00,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_100_001,attack_ryu_fw_100,2026-04-03 20:39:12,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_100_002,attack_ryu_fw_100,2026-04-03 20:43:21,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_100_003,attack_ryu_fw_100,2026-04-03 20:46:10,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_100_004,attack_ryu_fw_100,2026-04-03 20:48:02,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_100_005,attack_ryu_fw_100,2026-04-03 20:50:20,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_1500_001,attack_ryu_fw_1500,2026-04-03 21:06:21,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_1500_002,attack_ryu_fw_1500,2026-04-03 21:08:20,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_1500_003,attack_ryu_fw_1500,2026-04-03 21:10:30,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_1500_004,attack_ryu_fw_1500,2026-04-07 21:00:48,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_1500_005,attack_ryu_fw_1500,2026-04-07 21:02:38,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_2000_001,attack_ryu_fw_2000,2026-04-03 21:12:37,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_2000_002,attack_ryu_fw_2000,2026-04-03 21:14:24,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_2000_003,attack_ryu_fw_2000,2026-04-03 21:16:13,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_2000_004,attack_ryu_fw_2000,2026-04-07 21:09:17,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_2000_005,attack_ryu_fw_2000,2026-04-07 21:11:24,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_3000_001,attack_ryu_fw_3000,2026-04-03 21:18:37,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_3000_002,attack_ryu_fw_3000,2026-04-07 21:14:11,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_3000_003,attack_ryu_fw_3000,2026-04-07 21:15:59,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_3000_004,attack_ryu_fw_3000,2026-04-07 21:17:57,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_3000_005,attack_ryu_fw_3000,2026-04-07 21:19:37,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_500_001,attack_ryu_fw_500,2026-04-11 11:04:29,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_500_002,attack_ryu_fw_500,2026-04-11 11:06:38,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_500_003,attack_ryu_fw_500,2026-04-11 11:08:17,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_500_004,attack_ryu_fw_500,2026-04-11 11:11:21,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_500_005,attack_ryu_fw_500,2026-04-11 11:13:32,1.1.10.10,sustained single-RTU double-command abuse
+attack_ryu_fw_low_IOA_001,attack_ryu_fw_low_IOA,2026-04-07 21:28:44,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_002,attack_ryu_fw_low_IOA,2026-04-07 21:32:16,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_003,attack_ryu_fw_low_IOA,2026-04-07 21:34:00,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_004,attack_ryu_fw_low_IOA,2026-04-07 21:35:52,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_005,attack_ryu_fw_low_IOA,2026-04-07 21:41:04,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_006,attack_ryu_fw_low_IOA,2026-04-10 08:49:31,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_007,attack_ryu_fw_low_IOA,2026-04-10 08:52:15,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_008,attack_ryu_fw_low_IOA,2026-04-10 08:59:18,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_009,attack_ryu_fw_low_IOA,2026-04-10 09:01:50,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_010,attack_ryu_fw_low_IOA,2026-04-10 09:03:34,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_011,attack_ryu_fw_low_IOA,2026-04-10 09:05:47,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_012,attack_ryu_fw_low_IOA,2026-04-10 09:09:29,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_013,attack_ryu_fw_low_IOA,2026-04-10 09:11:21,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_014,attack_ryu_fw_low_IOA,2026-04-10 09:27:43,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_015,attack_ryu_fw_low_IOA,2026-04-10 09:56:48,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_1500_001,attack_ryu_fw_low_IOA_1500,2026-04-10 10:31:33,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_1500_002,attack_ryu_fw_low_IOA_1500,2026-04-10 10:34:25,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_1500_003,attack_ryu_fw_low_IOA_1500,2026-04-10 10:36:03,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_1500_004,attack_ryu_fw_low_IOA_1500,2026-04-10 10:38:22,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_1500_005,attack_ryu_fw_low_IOA_1500,2026-04-10 10:44:06,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_3000_001,attack_ryu_fw_low_IOA_3000,2026-04-10 11:25:53,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_3000_002,attack_ryu_fw_low_IOA_3000,2026-04-10 11:04:31,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_3000_003,attack_ryu_fw_low_IOA_3000,2026-04-10 11:06:23,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_3000_004,attack_ryu_fw_low_IOA_3000,2026-04-10 11:12:41,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_3000_005,attack_ryu_fw_low_IOA_3000,2026-04-10 11:14:51,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_500_001,attack_ryu_fw_low_IOA_500,2026-04-10 10:16:06,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_500_002,attack_ryu_fw_low_IOA_500,2026-04-10 10:19:32,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_500_003,attack_ryu_fw_low_IOA_500,2026-04-10 10:23:12,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_500_004,attack_ryu_fw_low_IOA_500,2026-04-10 10:25:00,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_500_005,attack_ryu_fw_low_IOA_500,2026-04-10 10:29:10,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_50_001,attack_ryu_fw_low_IOA_50,2026-04-10 09:59:11,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_50_002,attack_ryu_fw_low_IOA_50,2026-04-10 10:03:24,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_50_003,attack_ryu_fw_low_IOA_50,2026-04-10 10:07:31,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_50_004,attack_ryu_fw_low_IOA_50,2026-04-10 10:11:26,1.1.10.10,multi-RTU pivot
+attack_ryu_fw_low_IOA_50_005,attack_ryu_fw_low_IOA_50,2026-04-10 10:13:19,1.1.10.10,multi-RTU pivot
