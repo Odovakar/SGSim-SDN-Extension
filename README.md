@@ -1,16 +1,9 @@
 # SGSim-SDN-Extension
 
-This repository contains the SGSim extension and supplementary material developed for the bachelor's thesis:
+## Protocol-Aware SDN Enforcement for Trusted-Path IEC-104 Command Abuse in Smart Grid Control Networks
 
-## **SDN-Based Behavioural Detection and Inline Blocking of IEC-104 Command Abuse in Smart Grid Control Networks**
-Stian Lillevik — Noroff University College, Norway
-
----
-
-The results and methodology of this thesis have been synthesised into the following article, submitted for review at Elsevier Computer Networks:
-## **Protocol-Aware SDN Enforcement for Trusted-Path IEC-104 Command Abuse in Smart Grid Control Networks**
-> - Stian Lillevik and Livinus Obiora Nweke
-> - Noroff University College, Norway / Norwegian University of Science and Technology (NTNU), Norway
+> Stian Lillevik and Livinus Obiora Nweke
+> - Submitted for review at Elsevier Computer Networks
 
 ---
 
@@ -21,8 +14,8 @@ and a full experiment framework for evaluating trusted-path command abuse and co
 
 The controller parses IEC-104 ASDU fields inline and selectively drops Type 46
 double-command activation frames when sustained single-RTU or multi-RTU pivot
-predicates are satisfied. The experiment results reported in the paper and the
-accompanying bachelor's thesis are reproducible from the data in this repository.
+predicates are satisfied. The experiment results reported in the paper are
+reproducible from the data in this repository.
 
 ---
 
@@ -35,6 +28,8 @@ SGSim-SDN-Extension/
 ├── StartSGTopology.sh               # Start baseline or SDN topology
 ├── GUI/                             # Optional GUI
 └── SGSIM_EXPERIMENTS/
+    ├── runs.zip                     # Archive of all experimental run folders
+    ├── runs.zip.sha256              # SHA-256 checksum for archive verification
     ├── tools/
     │   ├── rc.sh                    # Single run capture script
     │   └── rcwrap.sh                # Attack wrapper (launches attack at T+delay)
@@ -46,7 +41,19 @@ SGSim-SDN-Extension/
     │       ├── manifest.sha256      # Integrity hashes
     │       ├── pcaps/               # Per-interface pcapng + capinfos + iostat
     │       └── logs/                # Ryu log, attack output, timing protocol
-    └── extraction/                  # Extraction scripts, derived CSVs and aggregates
+    └── extraction/                  # Extraction scripts, derived CSVs, aggregates, and README
+```
+
+---
+
+## Data Integrity
+
+All experimental runs are archived in `SGSIM_EXPERIMENTS/runs.zip`. The corresponding
+checksum file `SGSIM_EXPERIMENTS/runs.zip.sha256` can be used to verify the archive
+before extraction:
+
+```bash
+sha256sum -c SGSIM_EXPERIMENTS/runs.zip.sha256
 ```
 
 ---
@@ -58,17 +65,51 @@ sudo apt update -y
 sudo apt install -y mininet openvswitch-switch python3 python3-pip sqlite3 xterm php-cli
 ```
 
-**Python environment for Ryu** — Ryu requires Python 3.9. On ARM (Apple Silicon) use pyenv:
+**Python environment for Ryu** — Ryu requires Python 3.9:
 
 ```bash
-curl https://pyenv.run | bash
-pyenv install 3.9.18
-pyenv virtualenv 3.9.18 ryu-env
-pyenv activate ryu-env
 pip install ryu eventlet
 ```
 
-Note: On x86 machines pyenv is not required, system Python 3.9 should work.
+> **Note (ARM / Apple Silicon):** Use [pyenv](https://github.com/pyenv/pyenv) to install
+> Python 3.9.18 and create a dedicated virtualenv (`pyenv install 3.9.18 && pyenv virtualenv 3.9.18 ryu-env`).
+> On x86 machines, system Python 3.9 is sufficient.
+
+As of now the simulator binaries are compiled for ARM architectures and must be recompiled to run on x86 architectures.
+A recompilation guide is described below:
+
+**1. Rebuild the IEC-60870/IEC-104 static library**
+```bash
+cd comlib_dss
+make clean && make
+```
+**2. Rebuild the IEC-61850/GOOSE/SV static library**
+```bash
+cd ../comlib_dps
+make clean && make
+```
+
+**3. Rebuild comlib_dss device binaries**
+```bash
+for dir in sgdevices/RTU sgdevices/ATTACKER sgdevices/CONTROL sgdevices/CAPTUREPACKET; do
+    (cd "$dir" && make clean && make)
+done
+```
+
+**4. Rebuild comlib_dps device binaries**
+```bash
+for dir in sgdevices/IED_GOOSE sgdevices/DPSHMI_GOOSE sgdevices/DPSHMI_SV sgdevices/IED_SV; do
+    (cd "$dir" && make clean && make)
+done
+```
+
+**5. Rebuild the GUI**
+```bash
+cd ../GUI/Application && make clean && make
+```
+
+**6. Remove pyenv from StartRyuController.sh **
+Edit `StartRyuController.sh` comment out line 4, scroll to the end of the script and comment out line 19, and uncomment line 21.
 
 ---
 
@@ -106,52 +147,24 @@ sudo ./SGSIM_EXPERIMENTS/tools/rcwrap.sh attack_ryu_fw 1 60 10
 
 ## Experimental Conditions
 
-| Condition               | n  | Description                                         |
-| ----------------------- | -- | --------------------------------------------------- |
-| `baseline`              | 15 | No attack, no SDN                                   |
-| `baseline_fw`           | 15 | No attack, static OpenFlow allowlist active         |
-| `attack_no_mitigation`  | 15 | Attack, no enforcement                              |
-| `attack_fw_only`        | 15 | Attack, static allowlist only                       |
-| `attack_ryu_fw`         | 15 | Attack, SDN multi-RTU multi-IOA detection (250 ms) |
-| `attack_ryu_fw_low_IOA` | 15 | Attack, SDN multi-RTU single-IOA pivot detection (250 ms) |
+| Condition               | n  | Description                                                   |
+| ----------------------- | -- | ------------------------------------------------------------- |
+| `baseline`              | 15 | No attack, no SDN                                             |
+| `baseline_fw`           | 15 | No attack, static OpenFlow allowlist active                   |
+| `attack_no_mitigation`  | 15 | Attack, no enforcement                                        |
+| `attack_fw_only`        | 15 | Attack, static allowlist only                                 |
+| `attack_ryu_fw`         | 15 | Attack, SDN multi-RTU multi-IOA detection (250 ms)            |
+| `attack_ryu_fw_low_IOA` | 15 | Attack, SDN multi-RTU single-IOA pivot detection (250 ms)     |
 
-Rate sensitivity runs at 50, 100, 500, 1500, 3000 ms intervals are included for both
+Rate sensitivity runs at 50, 100, 500, 1500, and 3000 ms intervals are included for both
 SDN conditions (5 runs each).
 
 ---
 
 ## Reproducing the Results
 
-The `SGSIM_EXPERIMENTS/extraction/` directory contains the scripts and filtered files
-used to produce all tables and figures in the paper. There's also a .md page with all 
-commands used to extract and/or aggregate the data for every table.
-
-**Step 1 — run the three extraction scripts from `SGSIM_EXPERIMENTS/runs/`:**
-
-```bash
-bash ../extraction/extract_type46.sh . > ../extraction/type46_events.csv
-bash ../extraction/extract_blocks.sh . > ../extraction/block_events.csv
-bash ../extraction/extract_type36.sh . > ../extraction/type36_frames.csv
-```
-
-The Type 36 extraction hits all pcaps and takes a while.
-
-**Step 2 — compute TTB from type46_events.csv:**
-
-For multi-RTU multi-IOA (block fires on 3rd command):
-
-```bash
-awk -F',' 'NR==1{next} $3=="CONTROLSW-eth3" && $10==46 {count[$1]++; if(count[$1]==1) first[$1]=$5; if(count[$1]==3) third[$1]=$5} END {for(r in first) printf "%s %.9f %.9f %.9f\n", r, first[r], third[r], third[r]-first[r]}' type46_events.csv | sort > ttb_raw.txt
-```
-
-For multi-RTU single-IOA pivot (block fires on 2nd command):
-
-```bash
-awk -F',' 'NR==1{next} $3=="CONTROLSW-eth3" && $10==46 {count[$1]++; if(count[$1]==1) first[$1]=$5; if(count[$1]==2) second[$1]=$5} END {for(r in first) if(r in second) printf "%s %.9f %.9f %.9f\n", r, first[r], second[r], second[r]-first[r]}' type46_events.csv | sort > ttb_raw_low_IOA.txt
-```
-
-**Step 3 — all further statistics** are computed from these files using awk and grep.
-See the extraction scripts for the specific commands used for each table.
+See `SGSIM_EXPERIMENTS/extraction/README.md` for all extraction and aggregation commands
+used to reproduce each table and figure in the paper.
 
 ---
 
