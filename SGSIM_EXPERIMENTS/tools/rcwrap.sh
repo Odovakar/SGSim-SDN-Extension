@@ -13,14 +13,14 @@ fi
 
 ROOT_TMP="/tmp/SGSIM_EXPERIMENTS_TMP"
 CAPTURE_PRESET="iec104"
-DEST_ROOT="/home/ubuntu/SGS/SGSIM_EXPERIMENTS/runs"
+DEST_ROOT="/home/ubuntu/SGSim-Ext-SDN/SGSIM_EXPERIMENTS/runs"
 RYU_SOURCE_LOG="/home/ubuntu/Desktop/ryu_live.log"
 
 TARGETS="1.1.1.1,1.1.2.1,1.1.3.1,1.1.4.1"
 IEC104_PORT="2404"
 ATTACK_MODE="industroyer2"
 ATTACK_ARGS="500 5000 5004 1"
-ATTACKER_DIR="/home/ubuntu/SGS/comlib_dss/sgdevices/ATTACKER"
+ATTACKER_DIR="/home/ubuntu/SGSim-Ext-SDN/comlib_dss/sgdevices/ATTACKER"
 ATTACKER_BIN="attack_iec104_misuse"
 
 RUNNO_PAD="$(printf "%03d" "$RUNNO")"

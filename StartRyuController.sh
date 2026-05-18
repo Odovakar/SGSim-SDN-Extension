@@ -2,7 +2,7 @@
 set -euo pipefail
 # To run without pyenv and follow the instructions on line 20
 PYENV_RYU_PYTHON="/home/ubuntu/.pyenv/versions/3.9.18/envs/ryu-env/bin/python"
-RYU_APP="/home/ubuntu/SGS/controller.py"
+RYU_APP="/home/ubuntu/SGSim-Ext-SDN/controller.py"
 
 RYU_LOG="/home/ubuntu/Desktop/ryu_live.log"
 
