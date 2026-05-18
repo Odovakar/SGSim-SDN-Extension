@@ -163,6 +163,8 @@ sudo ./SGSIM_EXPERIMENTS/tools/rcwrap.sh attack_ryu_fw 1 60 10
 Rate sensitivity runs at 50, 100, 500, 1500, and 3000 ms intervals are included for both
 SDN conditions (5 runs each).
 
+#### The misuse script can be found within the comlib_dss/sgdevices/ATTACKER directory.
+
 ---
 
 ## Reproducing the Results
