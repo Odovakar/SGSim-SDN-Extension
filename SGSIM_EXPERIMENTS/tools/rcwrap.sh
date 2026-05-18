@@ -58,7 +58,7 @@ START_TS="$(date -Iseconds)"
 echo "$START_TS" > "${LOGDIR}/capture_start_time.txt"
 
 CAPTURE_PRESET="$CAPTURE_PRESET" ROOT_TMP="$ROOT_TMP" DEST_ROOT="$DEST_ROOT" ALLOW_PRECREATED_RUN_DIR=1 \
-  ./run_capture.sh "$COND" "$RUNNO" "$DUR" &
+  ./rc.sh "$COND" "$RUNNO" "$DUR" &
 CAP_PID=$!
 
 (
